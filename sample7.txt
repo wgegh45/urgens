@@ -1,0 +1,342 @@
+NLTK is a Python library for text analysis.
+TextBlob makes NLP easy.
+Wikipedia has an API for getting information.
+WordNet finds similar words.
+BeautifulSoup reads HTML from websites.
+
+
+📊 処理結果
+名詞句:
+Most used nouns: 
+python library:1, text analysis:1
+固有名詞:
+Most used proper nouns: 
+nltk:1, python:1, textblob:1, wikipedia:1, wordnet:1, beautifulsoup:1
+Wikipedia検索:
+Getting info for: nltk
+Getting info for: python
+Getting info for: textblob
+Getting info for: wikipedia
+Getting info for: wordnet
+Getting info for: beautifulsoup
+取得される年:
+
+1991 (Python)
+2001 (NLTK, Wikipedia)
+2006 (Twitter関連)
+
+📄 出力: none_wordlist.txt (約40-60行)
+wordnet
+wikipedia
+florida
+petersburg
+html
+python
+text analysis
+nlp
+textblob
+similar words
+sanfrancisco
+api
+nltk
+beautifulsoup
+wordnet2021
+wordnet2003
+wordnet1980
+wordnet2020
+wordnet2024
+wikipedia2021
+wikipedia2003
+wikipedia1980
+wikipedia2020
+wikipedia2024
+florida2021
+florida2003
+florida1980
+florida2020
+florida2024
+petersburg2021
+petersburg2003
+petersburg1980
+petersburg2020
+petersburg2024
+html2021
+html2003
+html1980
+html2020
+html2024
+python2021
+python2003
+python1980
+python2020
+python2024
+text analysis2021
+text analysis2003
+text analysis1980
+text analysis2020
+text analysis2024
+nlp2021
+nlp2003
+nlp1980
+nlp2020
+nlp2024
+textblob2021
+textblob2003
+textblob1980
+textblob2020
+textblob2024
+similar words2021
+similar words2003
+similar words1980
+similar words2020
+similar words2024
+sanfrancisco2021
+sanfrancisco2003
+sanfrancisco1980
+sanfrancisco2020
+sanfrancisco2024
+api2021
+api2003
+api1980
+api2020
+api2024
+nltk2021
+nltk2003
+nltk1980
+nltk2020
+nltk2024
+beautifulsoup2021
+beautifulsoup2003
+beautifulsoup1980
+beautifulsoup2020
+beautifulsoup2024
+
+
+(base) C:\Users\Admin\Desktop\wordnet>python rhodiola3_comment.py --filename mydata3.txt
+
+            Utku Sen's
+             _____  _               _ _       _
+            |  __ \| |             | (_)     | |
+            | |__) | |__   ___   __| |_  ___ | | __ _
+            |  _  /| '_ \ / _ \ / _` | |/ _ \| |/ _` |
+            | | \ \| | | | (_) | (_| | | (_) | | (_| |
+            |_|  \_\_| |_|\___/ \__,_|_|\___/|_|\__,_|
+
+Personalized wordlist generation with NLP, by analyzing tweets. (A.K.A crunch2049)
+
+
+Analyzing the text file..
+
+Warning: Could not detect language, assuming English
+
+名詞句（noun phrases） [('nltk', 1), ('python', 1), ('textblob', 1), ('nlp', 1), ('wikipedia', 1), ('api', 1), ('wordnet', 1), ('beautifulsoup', 1), ('html', 1), ('text analysis', 0), ('similar words', 0)]
+
+固有名詞（proper nouns） [('nltk', 1), ('python', 1), ('textblob', 1), ('nlp', 1), ('wikipedia', 1), ('api', 1), ('wordnet', 1), ('beautifulsoup', 1), ('html', 1)]
+
+名詞句（noun phrases）類似単語ペアの生成 [('nltk', 1), ('python', 1), ('textblob', 1), ('nlp', 1), ('wikipedia', 1), ('api', 1), ('wordnet', 1), ('beautifulsoup', 1), ('html', 1), ('text analysis', 0), ('similar words', 0)] []
+
+固有名詞（proper nouns）類似単語ペアの生成 [('nltk', 1), ('python', 1), ('textblob', 1), ('nlp', 1), ('wikipedia', 1), ('api', 1), ('wordnet', 1), ('beautifulsoup', 1), ('html', 1)] []
+
+Most used nouns: nltk:1, python:1, textblob:1, nlp:1, wikipedia:1, api:1, wordnet:1, beautifulsoup:1, html:1, text analysis:0, similar words:0
+Most used proper nouns: nltk:1, python:1, textblob:1, nlp:1, wikipedia:1, api:1, wordnet:1, beautifulsoup:1, html:1
+
+Gathering related locations and years..
+
+C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py:389: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 389 of the file C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  lis = BeautifulSoup(html).find_all('li')
+wiki ('wikipedia', 1) ['Florida', 'Petersburg', 'San Francisco']
+python 1980
+wikipedia 2003
+sanfrancisco 2024
+florida 2020
+petersburg 2021
+
+Wordlist is written to: none_wordlist.txt
+出力ファイルのサイズ: 1 KB
+出力ファイルの行数: 84
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+修正後
+
+(base) C:\Users\Admin\Desktop\wordnet>python rhodiola3_comment.py --filename mydata3.txt
+
+            Utku Sen's
+             _____  _               _ _       _
+            |  __ \| |             | (_)     | |
+            | |__) | |__   ___   __| |_  ___ | | __ _
+            |  _  /| '_ \ / _ \ / _` | |/ _ \| |/ _` |
+            | | \ \| | | | (_) | (_| | | (_) | | (_| |
+            |_|  \_\_| |_|\___/ \__,_|_|\___/|_|\__,_|
+
+Personalized wordlist generation with NLP, by analyzing tweets. (A.K.A crunch2049)
+
+
+Analyzing the text file..
+
+Warning: Could not detect language, assuming English
+DEBUG: proper_nouns_set = {'wordnet', 'html', 'wikipedia', 'beautifulsoup', 'api', 'nltk', 'textblob', 'python', 'nlp'}
+DEBUG: noun='nltk', noun_words=['nltk'], has_proper_noun=True
+DEBUG: noun='python', noun_words=['python'], has_proper_noun=True
+DEBUG: noun='text analysis', noun_words=['text', 'analysis'], has_proper_noun=False
+DEBUG: noun='textblob', noun_words=['textblob'], has_proper_noun=True
+DEBUG: noun='nlp', noun_words=['nlp'], has_proper_noun=True
+DEBUG: noun='wikipedia', noun_words=['wikipedia'], has_proper_noun=True
+DEBUG: noun='api', noun_words=['api'], has_proper_noun=True
+DEBUG: noun='wordnet', noun_words=['wordnet'], has_proper_noun=True
+DEBUG: noun='similar words', noun_words=['similar', 'words'], has_proper_noun=False
+DEBUG: noun='beautifulsoup', noun_words=['beautifulsoup'], has_proper_noun=True
+DEBUG: noun='html', noun_words=['html'], has_proper_noun=True
+
+名詞句（noun phrases） [('text analysis', 1), ('similar words', 1)]
+
+固有名詞（proper nouns） [('nltk', 1), ('python', 1), ('textblob', 1), ('nlp', 1), ('wikipedia', 1), ('api', 1), ('wordnet', 1), ('beautifulsoup', 1), ('html', 1)]
+
+名詞句（noun phrases）類似単語ペアの生成 [('text analysis', 1), ('similar words', 1)] []
+
+固有名詞（proper nouns）類似単語ペアの生成 [('nltk', 1), ('python', 1), ('textblob', 1), ('nlp', 1), ('wikipedia', 1), ('api', 1), ('wordnet', 1), ('beautifulsoup', 1), ('html', 1)] []
+
+Most used nouns: text analysis:1, similar words:1
+Most used proper nouns: nltk:1, python:1, textblob:1, nlp:1, wikipedia:1, api:1, wordnet:1, beautifulsoup:1, html:1
+
+Gathering related locations and years..
+
+C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py:389: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 389 of the file C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  lis = BeautifulSoup(html).find_all('li')
+wiki ('wikipedia', 1) ['San Francisco', 'Florida', 'Petersburg']
+wikipedia 2003
+petersburg 2021
+sanfrancisco 2024
+florida 2020
+
+Wordlist is written to: none_wordlist.txt
+出力ファイルのサイズ: 924 bytes
+出力ファイルの行数: 70
+
+wordnet
+html
+wikipedia
+beautifulsoup
+api
+petersburg
+sanfrancisco
+text analysis
+nltk
+textblob
+similar words
+python
+nlp
+florida
+wordnet2020
+wordnet2021
+wordnet2024
+wordnet2003
+html2020
+html2021
+html2024
+html2003
+wikipedia2020
+wikipedia2021
+wikipedia2024
+wikipedia2003
+beautifulsoup2020
+beautifulsoup2021
+beautifulsoup2024
+beautifulsoup2003
+api2020
+api2021
+api2024
+api2003
+petersburg2020
+petersburg2021
+petersburg2024
+petersburg2003
+sanfrancisco2020
+sanfrancisco2021
+sanfrancisco2024
+sanfrancisco2003
+text analysis2020
+text analysis2021
+text analysis2024
+text analysis2003
+nltk2020
+nltk2021
+nltk2024
+nltk2003
+textblob2020
+textblob2021
+textblob2024
+textblob2003
+similar words2020
+similar words2021
+similar words2024
+similar words2003
+python2020
+python2021
+python2024
+python2003
+nlp2020
+nlp2021
+nlp2024
+nlp2003
+florida2020
+florida2021
+florida2024
+florida2003
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+オフライン
+
+(base) C:\Users\Admin\Desktop\wordnet>python rhodiola3_comment.py --filename mydata3.txt
+
+            Utku Sen's
+             _____  _               _ _       _
+            |  __ \| |             | (_)     | |
+            | |__) | |__   ___   __| |_  ___ | | __ _
+            |  _  /| '_ \ / _ \ / _` | |/ _ \| |/ _` |
+            | | \ \| | | | (_) | (_| | | (_) | | (_| |
+            |_|  \_\_| |_|\___/ \__,_|_|\___/|_|\__,_|
+
+Personalized wordlist generation with NLP, by analyzing tweets. (A.K.A crunch2049)
+
+
+Analyzing the text file..
+
+Warning: Could not detect language, assuming English
+
+名詞句（noun phrases） [('text analysis', 1), ('similar words', 1)]
+
+固有名詞（proper nouns） [('nltk', 1), ('python', 1), ('textblob', 1), ('nlp', 1), ('wikipedia', 1), ('api', 1), ('wordnet', 1), ('beautifulsoup', 1), ('html', 1)]
+
+名詞句（noun phrases）類似単語ペアの生成 [('text analysis', 1), ('similar words', 1)] []
+
+固有名詞（proper nouns）類似単語ペアの生成 [('nltk', 1), ('python', 1), ('textblob', 1), ('nlp', 1), ('wikipedia', 1), ('api', 1), ('wordnet', 1), ('beautifulsoup', 1), ('html', 1)] []
+
+Most used nouns: text analysis:1, similar words:1
+Most used proper nouns: nltk:1, python:1, textblob:1, nlp:1, wikipedia:1, api:1, wordnet:1, beautifulsoup:1, html:1
+
+Gathering related locations and years..
+
+
+Wordlist is written to: none_wordlist.txt
+出力ファイルのサイズ: 105 bytes
+出力ファイルの行数: 11
+
+beautifulsoup
+similar words
+wikipedia
+textblob
+nlp
+html
+python
+wordnet
+nltk
+api
+text analysis
+
+

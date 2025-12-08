@@ -1,0 +1,341 @@
+Apple was founded by Steve Jobs in 1976. 
+Microsoft was founded by Bill Gates in 1975.
+Both companies are tech giants based in the United States.
+Steve Jobs was a visionary leader.
+Bill Gates is a philanthropist.
+
+
+📊 処理の流れと出力例
+ステップ1: 名詞句抽出
+Most used nouns: 
+steve jobs:2, bill gates:2, tech giants:1, united states:1
+ステップ2: 固有名詞抽出
+Most used proper nouns: 
+apple:1, microsoft:1, steve:2, jobs:2, bill:2, gates:2, united:1, states:1
+ステップ3: Wikipedia検索（オンライン時）
+Getting info for: apple
+Getting info for: microsoft
+Getting info for: steve
+...
+取得される情報:
+
+年情報: 1976, 1975, 1955, 1955 (Steve Jobs生年)
+都市情報: cupertino, redmond, seattle, sanfrancisco
+
+📄 最終出力ファイル: none_wordlist.txt
+オンライン実行時（約80-120行）
+steve jobs
+apple
+visionary leader
+jobs
+bill
+microsoft
+steve
+united
+states
+bill gates
+gates
+nokia
+tech giants
+redmond
+washington
+steve jobs2600
+steve jobs2016
+steve jobs1975
+steve jobs1086
+apple2600
+apple2016
+apple1975
+apple1086
+visionary leader2600
+visionary leader2016
+visionary leader1975
+visionary leader1086
+jobs2600
+jobs2016
+jobs1975
+jobs1086
+bill2600
+bill2016
+bill1975
+bill1086
+microsoft2600
+microsoft2016
+microsoft1975
+microsoft1086
+steve2600
+steve2016
+steve1975
+steve1086
+united2600
+united2016
+united1975
+united1086
+states2600
+states2016
+states1975
+states1086
+bill gates2600
+bill gates2016
+bill gates1975
+bill gates1086
+gates2600
+gates2016
+gates1975
+gates1086
+nokia2600
+nokia2016
+nokia1975
+nokia1086
+tech giants2600
+tech giants2016
+tech giants1975
+tech giants1086
+redmond2600
+redmond2016
+redmond1975
+redmond1086
+washington2600
+washington2016
+washington1975
+washington1086
+
+
+🔍 各部分の説明
+基本単語（15-20個）
+steve jobs      # 名詞句
+bill gates      # 名詞句
+tech giants     # 名詞句
+apple           # 固有名詞
+microsoft       # 固有名詞
+Wikipedia取得の都市（4-8個）
+cupertino       # Apple本社所在地
+redmond         # Microsoft本社所在地
+seattle         # ビル・ゲイツ関連
+sanfrancisco    # シリコンバレー近郊
+
+組み合わせ語（2-5個）
+applemicrosoft  # 類似度0.12以上の組み合わせ
+microsoftapple
+stevebill
+
+年付き単語（60-90個）
+apple1976       # Apple創業年
+microsoft1975   # Microsoft創業年
+steve jobs1955  # Steve Jobs生年
+bill gates1955  # Bill Gates生年
+cupertino1976   # 都市 + 年
+
+
+(base) C:\Users\Admin\Desktop\wordnet>python rhodiola3_comment.py --filename mydata3.txt
+
+            Utku Sen's
+             _____  _               _ _       _
+            |  __ \| |             | (_)     | |
+            | |__) | |__   ___   __| |_  ___ | | __ _
+            |  _  /| '_ \ / _ \ / _` | |/ _ \| |/ _` |
+            | | \ \| | | | (_) | (_| | | (_) | | (_| |
+            |_|  \_\_| |_|\___/ \__,_|_|\___/|_|\__,_|
+
+Personalized wordlist generation with NLP, by analyzing tweets. (A.K.A crunch2049)
+
+
+Analyzing the text file..
+
+Warning: Could not detect language, assuming English
+
+名詞句（noun phrases） [('apple', 1), ('microsoft', 1), ('steve jobs', 0), ('bill gates', 0), ('tech giants', 0), ('visionary leader', 0)]
+
+固有名詞（proper nouns） [('steve', 2), ('jobs', 2), ('bill', 2), ('gates', 2), ('apple', 1), ('microsoft', 1), ('united', 1), ('states', 1)]
+
+名詞句（noun phrases）類似単語ペアの生成 [('apple', 1), ('microsoft', 1), ('steve jobs', 0), ('bill gates', 0), ('tech giants', 0), ('visionary leader', 0)] []
+
+固有名詞（proper nouns）類似単語ペアの生成 [('steve', 2), ('jobs', 2), ('bill', 2), ('gates', 2), ('apple', 1), ('microsoft', 1), ('united', 1), ('states', 1)] []
+
+Most used nouns: apple:1, microsoft:1, steve jobs:0, bill gates:0, tech giants:0, visionary leader:0
+Most used proper nouns: steve:2, jobs:2, bill:2, gates:2, apple:1, microsoft:1, united:1, states:1
+
+Gathering related locations and years..
+
+C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py:389: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 389 of the file C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  lis = BeautifulSoup(html).find_all('li')
+wiki ('microsoft', 1) ['Nokia', 'Washington', 'Redmond']
+steve 2016
+gates 2600
+microsoft 1975
+redmond 1086
+
+Wordlist is written to: none_wordlist.txt
+出力ファイルのサイズ: 955 bytes
+出力ファイルの行数: 75
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+修正後
+
+(base) C:\Users\Admin\Desktop\wordnet>python rhodiola3_comment.py --filename mydata3.txt
+
+            Utku Sen's
+             _____  _               _ _       _
+            |  __ \| |             | (_)     | |
+            | |__) | |__   ___   __| |_  ___ | | __ _
+            |  _  /| '_ \ / _ \ / _` | |/ _ \| |/ _` |
+            | | \ \| | | | (_) | (_| | | (_) | | (_| |
+            |_|  \_\_| |_|\___/ \__,_|_|\___/|_|\__,_|
+
+Personalized wordlist generation with NLP, by analyzing tweets. (A.K.A crunch2049)
+
+
+Analyzing the text file..
+
+Warning: Could not detect language, assuming English
+DEBUG: proper_nouns_set = {'apple', 'steve', 'gates', 'jobs', 'both', 'states', 'bill', 'microsoft', 'united'}
+DEBUG: noun='apple', noun_words=['apple'], has_proper_noun=True
+DEBUG: noun='steve jobs', noun_words=['steve', 'jobs'], has_proper_noun=True
+DEBUG: noun='microsoft', noun_words=['microsoft'], has_proper_noun=True
+DEBUG: noun='bill gates', noun_words=['bill', 'gates'], has_proper_noun=True
+DEBUG: noun='tech giants', noun_words=['tech', 'giants'], has_proper_noun=False
+DEBUG: noun='steve jobs', noun_words=['steve', 'jobs'], has_proper_noun=True
+DEBUG: noun='visionary leader', noun_words=['visionary', 'leader'], has_proper_noun=False
+DEBUG: noun='bill gates', noun_words=['bill', 'gates'], has_proper_noun=True
+
+名詞句（noun phrases） [('tech giants', 1), ('visionary leader', 1)]
+
+固有名詞（proper nouns） [('steve jobs', 2), ('bill gates', 2), ('apple', 1), ('microsoft', 1), ('united states', 1)]
+
+名詞句（noun phrases）類似単語ペアの生成 [('tech giants', 1), ('visionary leader', 1)] []
+
+固有名詞（proper nouns）類似単語ペアの生成 [('steve jobs', 2), ('bill gates', 2), ('apple', 1), ('microsoft', 1), ('united states', 1)] []
+
+Most used nouns: tech giants:1, visionary leader:1
+Most used proper nouns: steve jobs:2, bill gates:2, apple:1, microsoft:1, united states:1
+
+Gathering related locations and years..
+
+wiki ('microsoft', 1) ['Washington', 'Gaza', 'Redmond']
+wiki ('united states', 1) ['Washington', 'Independence', 'Union']
+microsoft 1975
+united states 1513
+C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py:389: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 389 of the file C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  lis = BeautifulSoup(html).find_all('li')
+gaza 1943
+redmond 1086
+
+Wordlist is written to: none_wordlist.txt
+出力ファイルのサイズ: 872 bytes
+出力ファイルの行数: 60
+
+
+
+apple
+washington
+gaza
+steve jobs
+union
+independence
+tech giants
+redmond
+visionary leader
+bill gates
+microsoft
+united states
+apple1086
+apple1975
+apple1513
+apple1943
+washington1086
+washington1975
+washington1513
+washington1943
+gaza1086
+gaza1975
+gaza1513
+gaza1943
+steve jobs1086
+steve jobs1975
+steve jobs1513
+steve jobs1943
+union1086
+union1975
+union1513
+union1943
+independence1086
+independence1975
+independence1513
+independence1943
+tech giants1086
+tech giants1975
+tech giants1513
+tech giants1943
+redmond1086
+redmond1975
+redmond1513
+redmond1943
+visionary leader1086
+visionary leader1975
+visionary leader1513
+visionary leader1943
+bill gates1086
+bill gates1975
+bill gates1513
+bill gates1943
+microsoft1086
+microsoft1975
+microsoft1513
+microsoft1943
+united states1086
+united states1975
+united states1513
+united states1943
+
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+オフライン
+
+(base) C:\Users\Admin\Desktop\wordnet>python rhodiola3_comment.py --filename mydata3.txt
+
+            Utku Sen's
+             _____  _               _ _       _
+            |  __ \| |             | (_)     | |
+            | |__) | |__   ___   __| |_  ___ | | __ _
+            |  _  /| '_ \ / _ \ / _` | |/ _ \| |/ _` |
+            | | \ \| | | | (_) | (_| | | (_) | | (_| |
+            |_|  \_\_| |_|\___/ \__,_|_|\___/|_|\__,_|
+
+Personalized wordlist generation with NLP, by analyzing tweets. (A.K.A crunch2049)
+
+
+Analyzing the text file..
+
+Warning: Could not detect language, assuming English
+
+名詞句（noun phrases） [('tech giants', 1), ('visionary leader', 1)]
+
+固有名詞（proper nouns） [('steve jobs', 2), ('bill gates', 2), ('apple', 1), ('microsoft', 1), ('united states', 1)]
+
+名詞句（noun phrases）類似単語ペアの生成 [('tech giants', 1), ('visionary leader', 1)] []
+
+固有名詞（proper nouns）類似単語ペアの生成 [('steve jobs', 2), ('bill gates', 2), ('apple', 1), ('microsoft', 1), ('united states', 1)] []
+
+Most used nouns: tech giants:1, visionary leader:1
+Most used proper nouns: steve jobs:2, bill gates:2, apple:1, microsoft:1, united states:1
+
+Gathering related locations and years..
+
+
+Wordlist is written to: none_wordlist.txt
+出力ファイルのサイズ: 88 bytes
+出力ファイルの行数: 7
+
+visionary leader
+tech giants
+steve jobs
+united states
+bill gates
+apple
+microsoft
+

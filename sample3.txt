@@ -1,0 +1,816 @@
+Tokyo is the capital of Japan. 
+Mount Fuji is a famous mountain in Japan.
+Sony and Toyota are major Japanese companies.
+Kyoto is known for its temples and gardens.
+Tokyo was founded in 1603 as Edo.
+Sony was established in 1946.
+Toyota started in 1937.
+Kyoto is a historic city with many UNESCO sites.
+
+
+
+📊 処理結果
+ステップ1: 名詞句抽出
+Most used nouns: 
+mount fuji:1, famous mountain:1, japanese companies:1, historic city:1, unesco sites:1
+ステップ2: 固有名詞抽出
+Most used proper nouns: 
+tokyo:2, japan:1, fuji:1, sony:2, toyota:2, kyoto:2, edo:1, unesco:1
+ステップ3: Wikipedia検索（オンライン時）
+Getting info for: tokyo
+Getting info for: japan
+Getting info for: fuji
+Getting info for: sony
+Getting info for: toyota
+Getting info for: kyoto
+取得される情報:
+
+年情報: 1603, 1946, 1937, 1868 (明治維新), 1964 (東京オリンピック)
+都市情報: tokyo, kyoto, osaka, yokohama, nagoya
+
+📄 最終出力: none_wordlist.txt
+nadi
+iloilo
+edo
+kant
+fuji
+hino
+luoyang
+suva
+japan
+paris
+university
+newyork
+tokyo
+tokyokyoto
+kyototoyota
+kyototokyo
+toyotakyoto
+kobe
+kamakura
+toyota
+major japanese companies
+toyotatokyo
+mount
+tokyotoyota
+unesco
+historic city
+famous mountain
+sony
+kyoto
+ashikaga
+nadi1972
+nadi1874
+nadi1937
+nadi2018
+nadi2025
+nadi2020
+nadi2023
+nadi1088
+nadi1945
+iloilo1972
+iloilo1874
+iloilo1937
+iloilo2018
+iloilo2025
+iloilo2020
+iloilo2023
+iloilo1088
+iloilo1945
+edo1972
+edo1874
+edo1937
+edo2018
+edo2025
+edo2020
+edo2023
+edo1088
+edo1945
+kant1972
+kant1874
+kant1937
+kant2018
+kant2025
+kant2020
+kant2023
+kant1088
+kant1945
+fuji1972
+fuji1874
+fuji1937
+fuji2018
+fuji2025
+fuji2020
+fuji2023
+fuji1088
+fuji1945
+hino1972
+hino1874
+hino1937
+hino2018
+hino2025
+hino2020
+hino2023
+hino1088
+hino1945
+luoyang1972
+luoyang1874
+luoyang1937
+luoyang2018
+luoyang2025
+luoyang2020
+luoyang2023
+luoyang1088
+luoyang1945
+suva1972
+suva1874
+suva1937
+suva2018
+suva2025
+suva2020
+suva2023
+suva1088
+suva1945
+japan1972
+japan1874
+japan1937
+japan2018
+japan2025
+japan2020
+japan2023
+japan1088
+japan1945
+paris1972
+paris1874
+paris1937
+paris2018
+paris2025
+paris2020
+paris2023
+paris1088
+paris1945
+university1972
+university1874
+university1937
+university2018
+university2025
+university2020
+university2023
+university1088
+university1945
+newyork1972
+newyork1874
+newyork1937
+newyork2018
+newyork2025
+newyork2020
+newyork2023
+newyork1088
+newyork1945
+tokyo1972
+tokyo1874
+tokyo1937
+tokyo2018
+tokyo2025
+tokyo2020
+tokyo2023
+tokyo1088
+tokyo1945
+tokyokyoto1972
+tokyokyoto1874
+tokyokyoto1937
+tokyokyoto2018
+tokyokyoto2025
+tokyokyoto2020
+tokyokyoto2023
+tokyokyoto1088
+tokyokyoto1945
+kyototoyota1972
+kyototoyota1874
+kyototoyota1937
+kyototoyota2018
+kyototoyota2025
+kyototoyota2020
+kyototoyota2023
+kyototoyota1088
+kyototoyota1945
+kyototokyo1972
+kyototokyo1874
+kyototokyo1937
+kyototokyo2018
+kyototokyo2025
+kyototokyo2020
+kyototokyo2023
+kyototokyo1088
+kyototokyo1945
+toyotakyoto1972
+toyotakyoto1874
+toyotakyoto1937
+toyotakyoto2018
+toyotakyoto2025
+toyotakyoto2020
+toyotakyoto2023
+toyotakyoto1088
+toyotakyoto1945
+kobe1972
+kobe1874
+kobe1937
+kobe2018
+kobe2025
+kobe2020
+kobe2023
+kobe1088
+kobe1945
+kamakura1972
+kamakura1874
+kamakura1937
+kamakura2018
+kamakura2025
+kamakura2020
+kamakura2023
+kamakura1088
+kamakura1945
+toyota1972
+toyota1874
+toyota1937
+toyota2018
+toyota2025
+toyota2020
+toyota2023
+toyota1088
+toyota1945
+major japanese companies1972
+major japanese companies1874
+major japanese companies1937
+major japanese companies2018
+major japanese companies2025
+major japanese companies2020
+major japanese companies2023
+major japanese companies1088
+major japanese companies1945
+toyotatokyo1972
+toyotatokyo1874
+toyotatokyo1937
+toyotatokyo2018
+toyotatokyo2025
+toyotatokyo2020
+toyotatokyo2023
+toyotatokyo1088
+toyotatokyo1945
+mount1972
+mount1874
+mount1937
+mount2018
+mount2025
+mount2020
+mount2023
+mount1088
+mount1945
+tokyotoyota1972
+tokyotoyota1874
+tokyotoyota1937
+tokyotoyota2018
+tokyotoyota2025
+tokyotoyota2020
+tokyotoyota2023
+tokyotoyota1088
+tokyotoyota1945
+unesco1972
+unesco1874
+unesco1937
+unesco2018
+unesco2025
+unesco2020
+unesco2023
+unesco1088
+unesco1945
+historic city1972
+historic city1874
+historic city1937
+historic city2018
+historic city2025
+historic city2020
+historic city2023
+historic city1088
+historic city1945
+famous mountain1972
+famous mountain1874
+famous mountain1937
+famous mountain2018
+famous mountain2025
+famous mountain2020
+famous mountain2023
+famous mountain1088
+famous mountain1945
+sony1972
+sony1874
+sony1937
+sony2018
+sony2025
+sony2020
+sony2023
+sony1088
+sony1945
+kyoto1972
+kyoto1874
+kyoto1937
+kyoto2018
+kyoto2025
+kyoto2020
+kyoto2023
+kyoto1088
+kyoto1945
+ashikaga1972
+ashikaga1874
+ashikaga1937
+ashikaga2018
+ashikaga2025
+ashikaga2020
+ashikaga2023
+ashikaga1088
+ashikaga1945
+
+
+
+
+(base) C:\Users\Admin\Desktop\wordnet>python rhodiola3_comment.py --filename mydata3.txt
+
+            Utku Sen's
+             _____  _               _ _       _
+            |  __ \| |             | (_)     | |
+            | |__) | |__   ___   __| |_  ___ | | __ _
+            |  _  /| '_ \ / _ \ / _` | |/ _ \| |/ _` |
+            | | \ \| | | | (_) | (_| | | (_) | | (_| |
+            |_|  \_\_| |_|\___/ \__,_|_|\___/|_|\__,_|
+
+Personalized wordlist generation with NLP, by analyzing tweets. (A.K.A crunch2049)
+
+
+Analyzing the text file..
+
+Warning: Could not detect language, assuming English
+
+名詞句（noun phrases） [('tokyo', 2), ('japan', 2), ('sony', 2), ('toyota', 2), ('kyoto', 2), ('fuji', 1), ('edo', 1), ('unesco', 1), ('famous mountain', 0), ('major japanese companies', 0), ('historic city', 0)]
+
+固有名詞（proper nouns） [('tokyo', 2), ('japan', 2), ('sony', 2), ('toyota', 2), ('kyoto', 2), ('mount', 1), ('fuji', 1), ('edo', 1), ('unesco', 1)]
+
+名詞句（noun phrases）類似単語ペアの生成 [('tokyo', 2), ('japan', 2), ('sony', 2), ('toyota', 2), ('kyoto', 2), ('fuji', 1), ('edo', 1), ('unesco', 1), ('famous mountain', 0), ('major japanese companies', 0), ('historic city', 0)] ['tokyotoyota', 'tokyokyoto', 'toyotatokyo', 'toyotakyoto', 'kyototokyo', 'kyototoyota']
+
+固有名詞（proper nouns）類似単語ペアの生成 [('tokyo', 2), ('japan', 2), ('sony', 2), ('toyota', 2), ('kyoto', 2), ('mount', 1), ('fuji', 1), ('edo', 1), ('unesco', 1)] ['tokyotoyota', 'tokyokyoto', 'toyotatokyo', 'toyotakyoto', 'kyototokyo', 'kyototoyota']
+
+Most used nouns: tokyo:2, japan:2, sony:2, toyota:2, kyoto:2, fuji:1, edo:1, unesco:1, famous mountain:0, major japanese companies:0, historic city:0
+Most used proper nouns: tokyo:2, japan:2, sony:2, toyota:2, kyoto:2, mount:1, fuji:1, edo:1, unesco:1
+
+Gathering related locations and years..
+
+wiki ('tokyo', 2) ['University', 'Kant', 'Kyoto']
+wiki ('japan', 2) ['Tokyo', 'Kamakura', 'Ashikaga']
+wiki ('toyota', 2) ['Hino', 'New York', 'Toyota']
+wiki ('kyoto', 2) ['Luoyang', 'Kobe', 'Kyoto']
+wiki ('fuji', 1) ['Nadi', 'Iloilo', 'Suva']
+C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py:389: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 389 of the file C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  lis = BeautifulSoup(html).find_all('li')
+wiki ('unesco', 1) ['Paris']
+tokyo 2023
+japan 2025
+toyota 1937
+kyoto 2020
+fuji 1874
+unesco 1945
+paris 1972
+tokyo 2023
+toyota 1937
+luoyang 2018
+kamakura 2020
+kyoto 2020
+university 1088
+
+Wordlist is written to: none_wordlist.txt
+出力ファイルのサイズ: 3 KB
+出力ファイルの行数: 300
+
+
+
+(base) C:\Users\Admin\Desktop\wordnet>python rhodiola3_comment.py --filename mydata3.txt
+
+            Utku Sen's
+             _____  _               _ _       _
+            |  __ \| |             | (_)     | |
+            | |__) | |__   ___   __| |_  ___ | | __ _
+            |  _  /| '_ \ / _ \ / _` | |/ _ \| |/ _` |
+            | | \ \| | | | (_) | (_| | | (_) | | (_| |
+            |_|  \_\_| |_|\___/ \__,_|_|\___/|_|\__,_|
+
+Personalized wordlist generation with NLP, by analyzing tweets. (A.K.A crunch2049)
+
+
+Analyzing the text file..
+
+Warning: Could not detect language, assuming English
+
+名詞句（noun phrases） [('tokyo', 2), ('japan', 2), ('sony', 2), ('toyota', 2), ('kyoto', 2), ('fuji', 1), ('edo', 1), ('unesco', 1), ('famous mountain', 0), ('major japanese companies', 0), ('historic city', 0)]
+
+固有名詞（proper nouns） [('tokyo', 2), ('japan', 2), ('sony', 2), ('toyota', 2), ('kyoto', 2), ('mount', 1), ('fuji', 1), ('edo', 1), ('unesco', 1)]
+
+名詞句（noun phrases）類似単語ペアの生成 [('tokyo', 2), ('japan', 2), ('sony', 2), ('toyota', 2), ('kyoto', 2), ('fuji', 1), ('edo', 1), ('unesco', 1), ('famous mountain', 0), ('major japanese companies', 0), ('historic city', 0)] ['tokyotoyota', 'tokyokyoto', 'toyotatokyo', 'toyotakyoto', 'kyototokyo', 'kyototoyota']
+
+固有名詞（proper nouns）類似単語ペアの生成 [('tokyo', 2), ('japan', 2), ('sony', 2), ('toyota', 2), ('kyoto', 2), ('mount', 1), ('fuji', 1), ('edo', 1), ('unesco', 1)] ['tokyotoyota', 'tokyokyoto', 'toyotatokyo', 'toyotakyoto', 'kyototokyo', 'kyototoyota']
+
+Most used nouns: tokyo:2, japan:2, sony:2, toyota:2, kyoto:2, fuji:1, edo:1, unesco:1, famous mountain:0, major japanese companies:0, historic city:0
+Most used proper nouns: tokyo:2, japan:2, sony:2, toyota:2, kyoto:2, mount:1, fuji:1, edo:1, unesco:1
+
+Gathering related locations and years..
+
+wiki ('tokyo', 2) ['University', 'New York', 'Kyoto']
+wiki ('japan', 2) ['Kamakura', 'Ashikaga', 'Tokyo']
+wiki ('toyota', 2) ['Hino', 'New York', 'Toyota']
+wiki ('kyoto', 2) ['Luoyang', 'Kyoto', 'Tokyo']
+wiki ('fuji', 1) ['Nadi', 'Iloilo', 'Lautoka']
+C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py:389: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 389 of the file C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  lis = BeautifulSoup(html).find_all('li')
+wiki ('unesco', 1) ['Paris']
+tokyo 2023
+japan 2025
+toyota 1937
+kyoto 2020
+fuji 1874
+unesco 1945
+kyoto 2020
+tokyo 2023
+kamakura 2020
+lautoka 2017
+toyota 1937
+luoyang 2018
+paris 1972
+university 1088
+
+Wordlist is written to: none_wordlist.txt
+出力ファイルのサイズ: 4 KB
+出力ファイルの行数: 308
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+修正後
+
+(base) C:\Users\Admin\Desktop\wordnet>python rhodiola3_comment.py --filename mydata3.txt
+
+            Utku Sen's
+             _____  _               _ _       _
+            |  __ \| |             | (_)     | |
+            | |__) | |__   ___   __| |_  ___ | | __ _
+            |  _  /| '_ \ / _ \ / _` | |/ _ \| |/ _` |
+            | | \ \| | | | (_) | (_| | | (_) | | (_| |
+            |_|  \_\_| |_|\___/ \__,_|_|\___/|_|\__,_|
+
+Personalized wordlist generation with NLP, by analyzing tweets. (A.K.A crunch2049)
+
+
+Analyzing the text file..
+
+Warning: Could not detect language, assuming English
+DEBUG: proper_nouns_set = {'unesco', 'fuji', 'kyoto', 'sony', 'mount', 'japan', 'edo', 'tokyo', 'toyota'}
+DEBUG: noun='tokyo', noun_words=['tokyo'], has_proper_noun=True
+DEBUG: noun='japan', noun_words=['japan'], has_proper_noun=True
+DEBUG: noun='fuji', noun_words=['fuji'], has_proper_noun=True
+DEBUG: noun='famous mountain', noun_words=['famous', 'mountain'], has_proper_noun=False
+DEBUG: noun='japan', noun_words=['japan'], has_proper_noun=True
+DEBUG: noun='sony', noun_words=['sony'], has_proper_noun=True
+DEBUG: noun='toyota', noun_words=['toyota'], has_proper_noun=True
+DEBUG: noun='major japanese companies', noun_words=['major', 'japanese', 'companies'], has_proper_noun=False
+DEBUG: noun='kyoto', noun_words=['kyoto'], has_proper_noun=True
+DEBUG: noun='tokyo', noun_words=['tokyo'], has_proper_noun=True
+DEBUG: noun='edo', noun_words=['edo'], has_proper_noun=True
+DEBUG: noun='sony', noun_words=['sony'], has_proper_noun=True
+DEBUG: noun='toyota', noun_words=['toyota'], has_proper_noun=True
+DEBUG: noun='kyoto', noun_words=['kyoto'], has_proper_noun=True
+DEBUG: noun='historic city', noun_words=['historic', 'city'], has_proper_noun=False
+DEBUG: noun='unesco', noun_words=['unesco'], has_proper_noun=True
+
+名詞句（noun phrases） [('famous mountain', 1), ('major japanese companies', 1), ('historic city', 1)]
+
+固有名詞（proper nouns） [('tokyo', 2), ('japan', 2), ('sony', 2), ('toyota', 2), ('kyoto', 2), ('mount fuji', 1), ('edo', 1), ('unesco', 1)]
+
+名詞句（noun phrases）類似単語ペアの生成 [('famous mountain', 1), ('major japanese companies', 1), ('historic city', 1)] []
+
+固有名詞（proper nouns）類似単語ペアの生成 [('tokyo', 2), ('japan', 2), ('sony', 2), ('toyota', 2), ('kyoto', 2), ('mount fuji', 1), ('edo', 1), ('unesco', 1)] ['tokyotoyota', 'tokyokyoto', 'toyotatokyo', 'toyotakyoto', 'kyototokyo', 'kyototoyota']
+
+Most used nouns: famous mountain:1, major japanese companies:1, historic city:1
+Most used proper nouns: tokyo:2, japan:2, sony:2, toyota:2, kyoto:2, mount fuji:1, edo:1, unesco:1
+
+Gathering related locations and years..
+
+wiki ('tokyo', 2) ['University', 'New York', 'Asia']
+wiki ('japan', 2) ['Ashikaga', 'Tokyo', 'Kamakura']
+wiki ('toyota', 2) ['Hino', 'New York', 'Toyota']
+wiki ('kyoto', 2) ['Toba', 'Kyoto', 'Luoyang']
+C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py:389: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 389 of the file C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  lis = BeautifulSoup(html).find_all('li')
+wiki ('unesco', 1) ['Paris']
+tokyo 2023
+japan 2025
+toyota 1937
+kyoto 2020
+unesco 1945
+paris 1972
+kyoto 2020
+kamakura 2020
+university 1088
+luoyang 2018
+tokyo 2023
+toyota 1937
+
+Wordlist is written to: none_wordlist.txt
+出力ファイルのサイズ: 3 KB
+出力ファイルの行数: 234
+
+
+major japanese companies
+kyototoyota
+kyoto
+toyotakyoto
+sony
+kamakura
+asia
+edo
+japan
+luoyang
+toyotatokyo
+tokyokyoto
+tokyo
+toyota
+mount fuji
+historic city
+toba
+tokyotoyota
+famous mountain
+paris
+unesco
+newyork
+university
+ashikaga
+hino
+kyototokyo
+major japanese companies2023
+major japanese companies1088
+major japanese companies1945
+major japanese companies1972
+major japanese companies1937
+major japanese companies2018
+major japanese companies2025
+major japanese companies2020
+kyototoyota2023
+kyototoyota1088
+kyototoyota1945
+kyototoyota1972
+kyototoyota1937
+kyototoyota2018
+kyototoyota2025
+kyototoyota2020
+kyoto2023
+kyoto1088
+kyoto1945
+kyoto1972
+kyoto1937
+kyoto2018
+kyoto2025
+kyoto2020
+toyotakyoto2023
+toyotakyoto1088
+toyotakyoto1945
+toyotakyoto1972
+toyotakyoto1937
+toyotakyoto2018
+toyotakyoto2025
+toyotakyoto2020
+sony2023
+sony1088
+sony1945
+sony1972
+sony1937
+sony2018
+sony2025
+sony2020
+kamakura2023
+kamakura1088
+kamakura1945
+kamakura1972
+kamakura1937
+kamakura2018
+kamakura2025
+kamakura2020
+asia2023
+asia1088
+asia1945
+asia1972
+asia1937
+asia2018
+asia2025
+asia2020
+edo2023
+edo1088
+edo1945
+edo1972
+edo1937
+edo2018
+edo2025
+edo2020
+japan2023
+japan1088
+japan1945
+japan1972
+japan1937
+japan2018
+japan2025
+japan2020
+luoyang2023
+luoyang1088
+luoyang1945
+luoyang1972
+luoyang1937
+luoyang2018
+luoyang2025
+luoyang2020
+toyotatokyo2023
+toyotatokyo1088
+toyotatokyo1945
+toyotatokyo1972
+toyotatokyo1937
+toyotatokyo2018
+toyotatokyo2025
+toyotatokyo2020
+tokyokyoto2023
+tokyokyoto1088
+tokyokyoto1945
+tokyokyoto1972
+tokyokyoto1937
+tokyokyoto2018
+tokyokyoto2025
+tokyokyoto2020
+tokyo2023
+tokyo1088
+tokyo1945
+tokyo1972
+tokyo1937
+tokyo2018
+tokyo2025
+tokyo2020
+toyota2023
+toyota1088
+toyota1945
+toyota1972
+toyota1937
+toyota2018
+toyota2025
+toyota2020
+mount fuji2023
+mount fuji1088
+mount fuji1945
+mount fuji1972
+mount fuji1937
+mount fuji2018
+mount fuji2025
+mount fuji2020
+historic city2023
+historic city1088
+historic city1945
+historic city1972
+historic city1937
+historic city2018
+historic city2025
+historic city2020
+toba2023
+toba1088
+toba1945
+toba1972
+toba1937
+toba2018
+toba2025
+toba2020
+tokyotoyota2023
+tokyotoyota1088
+tokyotoyota1945
+tokyotoyota1972
+tokyotoyota1937
+tokyotoyota2018
+tokyotoyota2025
+tokyotoyota2020
+famous mountain2023
+famous mountain1088
+famous mountain1945
+famous mountain1972
+famous mountain1937
+famous mountain2018
+famous mountain2025
+famous mountain2020
+paris2023
+paris1088
+paris1945
+paris1972
+paris1937
+paris2018
+paris2025
+paris2020
+unesco2023
+unesco1088
+unesco1945
+unesco1972
+unesco1937
+unesco2018
+unesco2025
+unesco2020
+newyork2023
+newyork1088
+newyork1945
+newyork1972
+newyork1937
+newyork2018
+newyork2025
+newyork2020
+university2023
+university1088
+university1945
+university1972
+university1937
+university2018
+university2025
+university2020
+ashikaga2023
+ashikaga1088
+ashikaga1945
+ashikaga1972
+ashikaga1937
+ashikaga2018
+ashikaga2025
+ashikaga2020
+hino2023
+hino1088
+hino1945
+hino1972
+hino1937
+hino2018
+hino2025
+hino2020
+kyototokyo2023
+kyototokyo1088
+kyototokyo1945
+kyototokyo1972
+kyototokyo1937
+kyototokyo2018
+kyototokyo2025
+kyototokyo2020
+
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+オフライン
+
+
+(base) C:\Users\Admin\Desktop\wordnet>python rhodiola3_comment.py --filename mydata3.txt
+
+            Utku Sen's
+             _____  _               _ _       _
+            |  __ \| |             | (_)     | |
+            | |__) | |__   ___   __| |_  ___ | | __ _
+            |  _  /| '_ \ / _ \ / _` | |/ _ \| |/ _` |
+            | | \ \| | | | (_) | (_| | | (_) | | (_| |
+            |_|  \_\_| |_|\___/ \__,_|_|\___/|_|\__,_|
+
+Personalized wordlist generation with NLP, by analyzing tweets. (A.K.A crunch2049)
+
+
+Analyzing the text file..
+
+Warning: Could not detect language, assuming English
+
+名詞句（noun phrases） [('tech giants', 1), ('visionary leader', 1)]
+
+固有名詞（proper nouns） [('steve jobs', 2), ('bill gates', 2), ('apple', 1), ('microsoft', 1), ('united states', 1)]
+
+名詞句（noun phrases）類似単語ペアの生成 [('tech giants', 1), ('visionary leader', 1)] []
+
+固有名詞（proper nouns）類似単語ペアの生成 [('steve jobs', 2), ('bill gates', 2), ('apple', 1), ('microsoft', 1), ('united states', 1)] []
+
+Most used nouns: tech giants:1, visionary leader:1
+Most used proper nouns: steve jobs:2, bill gates:2, apple:1, microsoft:1, united states:1
+
+Gathering related locations and years..
+
+
+Wordlist is written to: none_wordlist.txt
+出力ファイルのサイズ: 88 bytes
+出力ファイルの行数: 7
+
+united states
+tech giants
+visionary leader
+microsoft
+steve jobs
+apple
+bill gates
+

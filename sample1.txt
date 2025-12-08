@@ -1,0 +1,270 @@
+Apple was founded by Steve Jobs. Microsoft is another tech giant. Orange is popular. 
+
+
+(base) C:\Users\Admin\Desktop\wordnet>python rhodiola3_comment.py --filename mydata3.txt
+
+            Utku Sen's
+             _____  _               _ _       _
+            |  __ \| |             | (_)     | |
+            | |__) | |__   ___   __| |_  ___ | | __ _
+            |  _  /| '_ \ / _ \ / _` | |/ _ \| |/ _` |
+            | | \ \| | | | (_) | (_| | | (_) | | (_| |
+            |_|  \_\_| |_|\___/ \__,_|_|\___/|_|\__,_|
+
+Personalized wordlist generation with NLP, by analyzing tweets. (A.K.A crunch2049)
+
+
+Analyzing the text file..
+
+Warning: Could not detect language, assuming English
+
+名詞句（noun phrases） [('apple', 1), ('microsoft', 1), ('orange', 1), ('steve jobs', 0)]
+
+固有名詞（proper nouns） [('apple', 1), ('steve', 1), ('jobs', 1), ('microsoft', 1), ('orange', 1)]
+
+名詞句（noun phrases）類似単語ペアの生成 [('apple', 1), ('microsoft', 1), ('orange', 1), ('steve jobs', 0)] ['appleorange', 'orangeapple']
+
+固有名詞（proper nouns）類似単語ペアの生成 [('apple', 1), ('steve', 1), ('jobs', 1), ('microsoft', 1), ('orange', 1)] ['appleorange', 'orangeapple']
+
+Most used nouns: apple:1, microsoft:1, orange:1, steve jobs:0
+Most used proper nouns: apple:1, steve:1, jobs:1, microsoft:1, orange:1
+
+Gathering related locations and years..
+
+C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py:389: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 389 of the file C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  lis = BeautifulSoup(html).find_all('li')
+wiki ('microsoft', 1) ['Washington', 'Gaza', 'Nokia']
+steve 2016
+microsoft 1975
+gaza 1943
+
+Wordlist is written to: none_wordlist.txt
+出力ファイルのサイズ: 540 bytes
+出力ファイルの行数: 44
+
+(base) C:\Users\Admin\Desktop\wordnet>python rhodiola3_comment.py --filename mydata3.txt
+
+            Utku Sen's
+             _____  _               _ _       _
+            |  __ \| |             | (_)     | |
+            | |__) | |__   ___   __| |_  ___ | | __ _
+            |  _  /| '_ \ / _ \ / _` | |/ _ \| |/ _` |
+            | | \ \| | | | (_) | (_| | | (_) | | (_| |
+            |_|  \_\_| |_|\___/ \__,_|_|\___/|_|\__,_|
+
+Personalized wordlist generation with NLP, by analyzing tweets. (A.K.A crunch2049)
+
+
+Analyzing the text file..
+
+Warning: Could not detect language, assuming English
+
+名詞句（noun phrases） [('apple', 1), ('microsoft', 1), ('orange', 1), ('steve jobs', 0)]
+
+固有名詞（proper nouns） [('apple', 1), ('steve', 1), ('jobs', 1), ('microsoft', 1), ('orange', 1)]
+
+名詞句（noun phrases）類似単語ペアの生成 [('apple', 1), ('microsoft', 1), ('orange', 1), ('steve jobs', 0)] ['appleorange', 'orangeapple']
+
+固有名詞（proper nouns）類似単語ペアの生成 [('apple', 1), ('steve', 1), ('jobs', 1), ('microsoft', 1), ('orange', 1)] ['appleorange', 'orangeapple']
+
+Most used nouns: apple:1, microsoft:1, orange:1, steve jobs:0
+Most used proper nouns: apple:1, steve:1, jobs:1, microsoft:1, orange:1
+
+Gathering related locations and years..
+
+C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py:389: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 389 of the file C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  lis = BeautifulSoup(html).find_all('li')
+wiki ('microsoft', 1) ['Nokia', 'Redmond', 'Gaza']
+steve 2016
+microsoft 1975
+gaza 1943
+redmond 1086
+
+Wordlist is written to: none_wordlist.txt
+出力ファイルのサイズ: 671 bytes
+出力ファイルの行数: 55
+
+
+apple
+jobs
+orangeapple
+gaza
+microsoft
+nokia
+orange
+appleorange
+steve
+steve jobs
+redmond
+apple1943
+apple2016
+apple1975
+apple1086
+jobs1943
+jobs2016
+jobs1975
+jobs1086
+orangeapple1943
+orangeapple2016
+orangeapple1975
+orangeapple1086
+gaza1943
+gaza2016
+gaza1975
+gaza1086
+microsoft1943
+microsoft2016
+microsoft1975
+microsoft1086
+nokia1943
+nokia2016
+nokia1975
+nokia1086
+orange1943
+orange2016
+orange1975
+orange1086
+appleorange1943
+appleorange2016
+appleorange1975
+appleorange1086
+steve1943
+steve2016
+steve1975
+steve1086
+steve jobs1943
+steve jobs2016
+steve jobs1975
+steve jobs1086
+redmond1943
+redmond2016
+redmond1975
+redmond1086
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+修正後
+
+(base) C:\Users\Admin\Desktop\wordnet>python rhodiola3_comment.py --filename mydata3.txt
+
+            Utku Sen's
+             _____  _               _ _       _
+            |  __ \| |             | (_)     | |
+            | |__) | |__   ___   __| |_  ___ | | __ _
+            |  _  /| '_ \ / _ \ / _` | |/ _ \| |/ _` |
+            | | \ \| | | | (_) | (_| | | (_) | | (_| |
+            |_|  \_\_| |_|\___/ \__,_|_|\___/|_|\__,_|
+
+Personalized wordlist generation with NLP, by analyzing tweets. (A.K.A crunch2049)
+
+
+Analyzing the text file..
+
+Warning: Could not detect language, assuming English
+
+名詞句（noun phrases） []
+
+固有名詞（proper nouns） [('apple', 1), ('steve jobs', 1), ('microsoft', 1), ('orange', 1)]
+
+名詞句（noun phrases）類似単語ペアの生成 [] []
+
+固有名詞（proper nouns）類似単語ペアの生成 [('apple', 1), ('steve jobs', 1), ('microsoft', 1), ('orange', 1)] ['appleorange', 'orangeapple']
+
+Most used nouns:
+Most used proper nouns: apple:1, steve jobs:1, microsoft:1, orange:1
+
+Gathering related locations and years..
+
+wiki ('microsoft', 1) ['Washington', 'Nokia', 'Redmond']
+C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py:389: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 389 of the file C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  lis = BeautifulSoup(html).find_all('li')
+microsoft 1975
+redmond 1086
+
+Wordlist is written to: none_wordlist.txt
+出力ファイルのサイズ: 348 bytes
+出力ファイルの行数: 27
+
+
+appleorange
+orangeapple
+washington
+redmond
+microsoft
+nokia
+orange
+apple
+steve jobs
+appleorange1975
+appleorange1086
+orangeapple1975
+orangeapple1086
+washington1975
+washington1086
+redmond1975
+redmond1086
+microsoft1975
+microsoft1086
+nokia1975
+nokia1086
+orange1975
+orange1086
+apple1975
+apple1086
+steve jobs1975
+steve jobs1086
+
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+オフライン
+
+(base) C:\Users\Admin\Desktop\wordnet>python rhodiola3_comment.py --filename mydata3.txt
+
+            Utku Sen's
+             _____  _               _ _       _
+            |  __ \| |             | (_)     | |
+            | |__) | |__   ___   __| |_  ___ | | __ _
+            |  _  /| '_ \ / _ \ / _` | |/ _ \| |/ _` |
+            | | \ \| | | | (_) | (_| | | (_) | | (_| |
+            |_|  \_\_| |_|\___/ \__,_|_|\___/|_|\__,_|
+
+Personalized wordlist generation with NLP, by analyzing tweets. (A.K.A crunch2049)
+
+
+Analyzing the text file..
+
+Warning: Could not detect language, assuming English
+
+名詞句（noun phrases） []
+
+固有名詞（proper nouns） [('apple', 1), ('steve jobs', 1), ('microsoft', 1), ('orange', 1)]
+
+名詞句（noun phrases）類似単語ペアの生成 [] []
+
+固有名詞（proper nouns）類似単語ペアの生成 [('apple', 1), ('steve jobs', 1), ('microsoft', 1), ('orange', 1)] ['appleorange', 'orangeapple']
+
+Most used nouns:
+Most used proper nouns: apple:1, steve jobs:1, microsoft:1, orange:1
+
+Gathering related locations and years..
+
+
+Wordlist is written to: none_wordlist.txt
+出力ファイルのサイズ: 64 bytes
+出力ファイルの行数: 6
+
+appleorange
+microsoft
+orange
+orangeapple
+steve jobs
+apple
+

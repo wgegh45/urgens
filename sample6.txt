@@ -1,0 +1,812 @@
+NLTK is a Natural Language Processing toolkit for Python.
+TextBlob is built on top of NLTK and provides simple NLP APIs.
+Wikipedia provides free encyclopedic content through its API.
+Tweepy is a Python library for accessing the Twitter API.
+BeautifulSoup is used for web scraping and HTML parsing.
+GeoText extracts geographical information from text.
+WordNet is a lexical database for semantic similarity.
+Synset represents a set of synonyms in WordNet.
+Regular expressions are used for pattern matching.
+
+
+ステップ1: 名詞句抽出（find_noun_phrases関数）
+TextBlobのblob.noun_phrasesを使用:
+pythonblob = TextBlob(text)
+for noun in blob.noun_phrases:
+    noun_counts[noun.lower()] = blob.words.count(noun)
+```
+
+**抽出される名詞句:**
+```
+Most used nouns: 
+natural language processing:1, python library:1, twitter api:1, 
+web scraping:1, html parsing:1, geographical information:1, 
+lexical database:1, semantic similarity:1, pattern matching:1
+
+ステップ2: 固有名詞抽出（find_proper_nouns関数）
+NLTKの品詞タグ付けpos_tagを使用:
+pythontagged_sent = pos_tag(text.split())
+propernouns = [word.lower() for word, pos in tagged_sent if pos == 'NNP']
+```
+
+**抽出される固有名詞（NNPタグ）:**
+```
+Most used proper nouns: 
+nltk:1, python:2, textblob:1, wikipedia:1, tweepy:1, 
+twitter:1, beautifulsoup:1, geotext:1, wordnet:2, synset:1
+品詞タグの意味:
+
+NNP = Proper Noun (Singular) = 固有名詞（単数）
+例: NLTK, Python, Wikipedia
+
+
+ステップ3: 単語の類似度比較（mass_similarity_compare関数）
+WordNetのSynset.path_similarityを使用:
+pythonstring1 = Synset(word1+'.n.01')
+string2 = Synset(word2+'.n.01')
+similarity = string1.path_similarity(string2)
+```
+
+**類似度が0.12以上の組み合わせを生成:**
+```
+組み合わせ単語:
+nltkpython
+pythontextblob
+textblobnltk
+wikipediatwitter
+tweepytwitter
+wordnetsynset
+
+技術的説明:
+path_similarity: WordNet階層における2つの概念間の最短パス距離
+値の範囲: 0.0（無関係）～ 1.0（同義語）
+閾値0.12: 弱い関連性でも組み合わせる設定
+
+
+ステップ4: Wikipedia検索（get_year関数）
+Wikipedia APIとGeoTextを使用:
+pythonpage = wikipedia.page(proper_noun)
+year = re.findall('[1-3][0-9]{3}', page.summary)
+geo = GeoText(page.summary)
+cities = list(set(geo.cities))
+```
+
+**検索例:**
+```
+Getting info for: nltk
+Getting info for: python
+Getting info for: textblob
+Getting info for: wikipedia
+```
+
+**取得される情報:**
+
+| 固有名詞 | Wikipedia年情報 | Wikipedia都市情報 |
+|---------|----------------|------------------|
+| **python** | 1991（リリース年） | Amsterdam（開発地） |
+| **nltk** | 2001（リリース年） | Philadelphia（開発大学所在地） |
+| **wikipedia** | 2001（創設年） | SanFrancisco（本部） |
+| **twitter** | 2006（創設年） | SanFrancisco（本社） |
+
+---
+
+## 📄 最終出力: `none_wordlist.txt`
+
+### **完全な出力例（100-150行）**
+```
+# === 名詞句 ===
+natural language processing
+python library
+twitter api
+web scraping
+html parsing
+geographical information
+lexical database
+semantic similarity
+pattern matching
+
+# === 固有名詞 ===
+nltk
+python
+textblob
+wikipedia
+tweepy
+twitter
+beautifulsoup
+geotext
+wordnet
+synset
+
+# === Wikipedia取得都市 ===
+amsterdam
+philadelphia
+sanfrancisco
+
+# === 組み合わせ（類似度0.12以上）===
+nltkpython
+pythontextblob
+textblobnltk
+wikipediatwitter
+tweepytwitter
+wordnetsynset
+
+# === 年付き単語（基本単語 × 年情報）===
+natural language processing1991
+natural language processing2001
+natural language processing2006
+python library1991
+python library2001
+twitter api2006
+twitter api2001
+nltk1991
+nltk2001
+nltk2006
+python1991
+python2001
+python2006
+textblob1991
+textblob2001
+wikipedia2001
+wikipedia2006
+tweepy2006
+tweepy2001
+twitter2006
+twitter2001
+beautifulsoup1991
+beautifulsoup2001
+geotext2001
+wordnet1991
+wordnet2001
+synset1991
+amsterdam1991
+amsterdam2001
+philadelphia2001
+philadelphia2006
+sanfrancisco2001
+sanfrancisco2006
+
+# === 組み合わせ + 年情報 ===
+nltkpython1991
+nltkpython2001
+pythontextblob1991
+pythontextblob2001
+wikipediatwitter2001
+wikipediatwitter2006
+tweepytwitter2006
+wordnetsynset1991
+
+🔍 技術的ポイントの対応表
+コード内の処理			使用技術			出力例
+TextBlob(text)			NLP基礎処理		text → 構造化データ
+blob.noun_phrases		名詞句抽出		"natural language processing"
+pos_tag(text.split())		品詞タグ付け		NLTK/NNP, Python/NNP
+Synset.path_similarity		意味的類似度		nltk + python = 0.15 → 結合
+wikipedia.page()			Wikipedia API	Python → 1991年
+GeoText(summary)		地名抽出			summary → Amsterdam
+re.findall('[1-3][0-9]{3}')	正規表現			"founded in 1991" → 1991
+
+🎯 このソースが実装している技術
+NLP（自然言語処理）: NLTK + TextBlob
+品詞タグ付け: 固有名詞（NNP）の識別
+意味的類似度: WordNet階層を使用
+Web API連携: Wikipedia, Twitter
+Web スクレイピング: BeautifulSoup
+地名抽出: GeoText
+正規表現: 年号のパターンマッチング
+ファイルI/O: テキスト処理とリスト生成
+
+
+(base) C:\Users\Admin\Desktop\wordnet>python rhodiola3_comment.py --filename mydata3.txt
+
+            Utku Sen's
+             _____  _               _ _       _
+            |  __ \| |             | (_)     | |
+            | |__) | |__   ___   __| |_  ___ | | __ _
+            |  _  /| '_ \ / _ \ / _` | |/ _ \| |/ _` |
+            | | \ \| | | | (_) | (_| | | (_) | | (_| |
+            |_|  \_\_| |_|\___/ \__,_|_|\___/|_|\__,_|
+
+Personalized wordlist generation with NLP, by analyzing tweets. (A.K.A crunch2049)
+
+
+Analyzing the text file..
+
+Warning: Could not detect language, assuming English
+
+名詞句（noun phrases） [('nltk', 2), ('python', 2), ('api', 2), ('wordnet', 2), ('textblob', 1), ('wikipedia', 1), ('tweepy', 1), ('beautifulsoup', 1), ('html', 1), ('geotext', 1), ('synset', 1), ('regular', 1), ('language processing', 0), ('nlp apis', 0), ('free encyclopedic content', 0)]
+
+固有名詞（proper nouns） [('nltk', 2), ('python', 2), ('api', 2), ('wordnet', 2), ('language', 1), ('processing', 1), ('textblob', 1), ('nlp', 1), ('apis', 1), ('wikipedia', 1), ('tweepy', 1), ('twitter', 1), ('beautifulsoup', 1), ('html', 1), ('geotext', 1)]
+
+名詞句（noun phrases）類似単語ペアの生成 [('nltk', 2), ('python', 2), ('api', 2), ('wordnet', 2), ('textblob', 1), ('wikipedia', 1), ('tweepy', 1), ('beautifulsoup', 1), ('html', 1), ('geotext', 1), ('synset', 1), ('regular', 1), ('language processing', 0), ('nlp apis', 0), ('free encyclopedic content', 0)] []
+
+固有名詞（proper nouns）類似単語ペアの生成 [('nltk', 2), ('python', 2), ('api', 2), ('wordnet', 2), ('language', 1), ('processing', 1), ('textblob', 1), ('nlp', 1), ('apis', 1), ('wikipedia', 1), ('tweepy', 1), ('twitter', 1), ('beautifulsoup', 1), ('html', 1), ('geotext', 1)] ['wordnetlanguage', 'languagewordnet', 'languageprocessing', 'languagetwitter', 'processinglanguage', 'twitterlanguage']
+
+Most used nouns: nltk:2, python:2, api:2, wordnet:2, textblob:1, wikipedia:1, tweepy:1, beautifulsoup:1, html:1, geotext:1, synset:1, regular:1, language processing:0, nlp apis:0, free encyclopedic content:0
+Most used proper nouns: nltk:2, python:2, api:2, wordnet:2, language:1, processing:1, textblob:1, nlp:1, apis:1, wikipedia:1, tweepy:1, twitter:1, beautifulsoup:1, html:1, geotext:1
+
+Gathering related locations and years..
+
+C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py:389: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 389 of the file C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  lis = BeautifulSoup(html).find_all('li')
+wiki ('language', 1) ['Oral', 'Plato']
+wiki ('apis', 1) ['Asia']
+wiki ('wikipedia', 1) ['Petersburg', 'Florida', 'San Francisco']
+python 1980
+language 1712
+wikipedia 2003
+sanfrancisco 2024
+florida 2020
+
+Wordlist is written to: none_wordlist.txt
+出力ファイルのサイズ: 2 KB
+出力ファイルの行数: 192
+
+
+sanfrancisco
+asia
+petersburg
+tweepy
+language
+beautifulsoup
+wordnet
+geotext
+regular
+html
+textblob
+nlp apis
+language processing
+languagetwitter
+twitter
+nlp
+synset
+languagewordnet
+florida
+wordnetlanguage
+plato
+processing
+nltk
+processinglanguage
+apis
+oral
+python
+twitterlanguage
+api
+languageprocessing
+free encyclopedic content
+wikipedia
+sanfrancisco2024
+sanfrancisco2020
+sanfrancisco2003
+sanfrancisco1980
+sanfrancisco1712
+asia2024
+asia2020
+asia2003
+asia1980
+asia1712
+petersburg2024
+petersburg2020
+petersburg2003
+petersburg1980
+petersburg1712
+tweepy2024
+tweepy2020
+tweepy2003
+tweepy1980
+tweepy1712
+language2024
+language2020
+language2003
+language1980
+language1712
+beautifulsoup2024
+beautifulsoup2020
+beautifulsoup2003
+beautifulsoup1980
+beautifulsoup1712
+wordnet2024
+wordnet2020
+wordnet2003
+wordnet1980
+wordnet1712
+geotext2024
+geotext2020
+geotext2003
+geotext1980
+geotext1712
+regular2024
+regular2020
+regular2003
+regular1980
+regular1712
+html2024
+html2020
+html2003
+html1980
+html1712
+textblob2024
+textblob2020
+textblob2003
+textblob1980
+textblob1712
+nlp apis2024
+nlp apis2020
+nlp apis2003
+nlp apis1980
+nlp apis1712
+language processing2024
+language processing2020
+language processing2003
+language processing1980
+language processing1712
+languagetwitter2024
+languagetwitter2020
+languagetwitter2003
+languagetwitter1980
+languagetwitter1712
+twitter2024
+twitter2020
+twitter2003
+twitter1980
+twitter1712
+nlp2024
+nlp2020
+nlp2003
+nlp1980
+nlp1712
+synset2024
+synset2020
+synset2003
+synset1980
+synset1712
+languagewordnet2024
+languagewordnet2020
+languagewordnet2003
+languagewordnet1980
+languagewordnet1712
+florida2024
+florida2020
+florida2003
+florida1980
+florida1712
+wordnetlanguage2024
+wordnetlanguage2020
+wordnetlanguage2003
+wordnetlanguage1980
+wordnetlanguage1712
+plato2024
+plato2020
+plato2003
+plato1980
+plato1712
+processing2024
+processing2020
+processing2003
+processing1980
+processing1712
+nltk2024
+nltk2020
+nltk2003
+nltk1980
+nltk1712
+processinglanguage2024
+processinglanguage2020
+processinglanguage2003
+processinglanguage1980
+processinglanguage1712
+apis2024
+apis2020
+apis2003
+apis1980
+apis1712
+oral2024
+oral2020
+oral2003
+oral1980
+oral1712
+python2024
+python2020
+python2003
+python1980
+python1712
+twitterlanguage2024
+twitterlanguage2020
+twitterlanguage2003
+twitterlanguage1980
+twitterlanguage1712
+api2024
+api2020
+api2003
+api1980
+api1712
+languageprocessing2024
+languageprocessing2020
+languageprocessing2003
+languageprocessing1980
+languageprocessing1712
+free encyclopedic content2024
+free encyclopedic content2020
+free encyclopedic content2003
+free encyclopedic content1980
+free encyclopedic content1712
+wikipedia2024
+wikipedia2020
+wikipedia2003
+wikipedia1980
+wikipedia1712
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+修正後
+
+(base) C:\Users\Admin\Desktop\wordnet>python rhodiola3_comment.py --filename mydata3.txt
+
+            Utku Sen's
+             _____  _               _ _       _
+            |  __ \| |             | (_)     | |
+            | |__) | |__   ___   __| |_  ___ | | __ _
+            |  _  /| '_ \ / _ \ / _` | |/ _ \| |/ _` |
+            | | \ \| | | | (_) | (_| | | (_) | | (_| |
+            |_|  \_\_| |_|\___/ \__,_|_|\___/|_|\__,_|
+
+Personalized wordlist generation with NLP, by analyzing tweets. (A.K.A crunch2049)
+
+
+Analyzing the text file..
+
+Warning: Could not detect language, assuming English
+DEBUG: proper_nouns_set = {'wordnet', 'processing', 'synset', 'html', 'tweepy', 'nlp', 'api', 'nltk', 'python', 'beautifulsoup', 'apis', 'twitter', 'textblob', 'language', 'wikipedia', 'geotext'}
+DEBUG: noun='nltk', noun_words=['nltk'], has_proper_noun=True
+DEBUG: noun='language processing', noun_words=['language', 'processing'], has_proper_noun=True
+DEBUG: noun='python', noun_words=['python'], has_proper_noun=True
+DEBUG: noun='textblob', noun_words=['textblob'], has_proper_noun=True
+DEBUG: noun='nltk', noun_words=['nltk'], has_proper_noun=True
+DEBUG: noun='nlp apis', noun_words=['nlp', 'apis'], has_proper_noun=True
+DEBUG: noun='wikipedia', noun_words=['wikipedia'], has_proper_noun=True
+DEBUG: noun='free encyclopedic content', noun_words=['free', 'encyclopedic', 'content'], has_proper_noun=False
+DEBUG: noun='api', noun_words=['api'], has_proper_noun=True
+DEBUG: noun='tweepy', noun_words=['tweepy'], has_proper_noun=True
+DEBUG: noun='python', noun_words=['python'], has_proper_noun=True
+DEBUG: noun='twitter api', noun_words=['twitter', 'api'], has_proper_noun=True
+DEBUG: noun='beautifulsoup', noun_words=['beautifulsoup'], has_proper_noun=True
+DEBUG: noun='html', noun_words=['html'], has_proper_noun=True
+DEBUG: noun='geotext', noun_words=['geotext'], has_proper_noun=True
+DEBUG: noun='geographical information', noun_words=['geographical', 'information'], has_proper_noun=False
+DEBUG: noun='wordnet', noun_words=['wordnet'], has_proper_noun=True
+DEBUG: noun='lexical database', noun_words=['lexical', 'database'], has_proper_noun=False
+DEBUG: noun='semantic similarity', noun_words=['semantic', 'similarity'], has_proper_noun=False
+DEBUG: noun='synset', noun_words=['synset'], has_proper_noun=True
+DEBUG: noun='wordnet', noun_words=['wordnet'], has_proper_noun=True
+DEBUG: noun='regular', noun_words=['regular'], has_proper_noun=False
+
+名詞句（noun phrases） [('free encyclopedic content', 1), ('geographical information', 1), ('lexical database', 1), ('semantic similarity', 1), ('regular', 1)]
+
+固有名詞（proper nouns） [('nltk', 2), ('python', 2), ('wordnet', 2), ('natural language processing', 1), ('textblob', 1), ('nlp apis', 1), ('wikipedia', 1), ('api', 1), ('tweepy', 1), ('twitter api', 1), ('beautifulsoup', 1), ('html', 1), ('geotext', 1), ('synset', 1), ('regular', 1)]
+
+名詞句（noun phrases）類似単語ペアの生成 [('free encyclopedic content', 1), ('geographical information', 1), ('lexical database', 1), ('semantic similarity', 1), ('regular', 1)] []
+
+固有名詞（proper nouns）類似単語ペアの生成 [('nltk', 2), ('python', 2), ('wordnet', 2), ('natural language processing', 1), ('textblob', 1), ('nlp apis', 1), ('wikipedia', 1), ('api', 1), ('tweepy', 1), ('twitter api', 1), ('beautifulsoup', 1), ('html', 1), ('geotext', 1), ('synset', 1), ('regular', 1)] []
+
+Most used nouns: free encyclopedic content:1, geographical information:1, lexical database:1, semantic similarity:1, regular:1
+Most used proper nouns: nltk:2, python:2, wordnet:2, natural language processing:1, textblob:1, nlp apis:1, wikipedia:1, api:1, tweepy:1, twitter api:1, beautifulsoup:1, html:1, geotext:1, synset:1, regular:1
+
+Gathering related locations and years..
+
+C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py:389: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 389 of the file C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  lis = BeautifulSoup(html).find_all('li')
+wiki ('wikipedia', 1) ['Florida', 'Petersburg', 'San Francisco']
+wiki ('twitter api', 1) ['San Francisco', 'March']
+wiki ('synset', 1) ['Dhaka', 'Chittagong', 'Sylhet']
+wikipedia 2003
+twitter api 2006
+synset 2025
+sylhet 2025
+florida 2020
+dhaka 1608
+sanfrancisco 2024
+chittagong 2022
+petersburg 2021
+
+Wordlist is written to: none_wordlist.txt
+出力ファイルのサイズ: 3 KB
+出力ファイルの行数: 234
+
+
+
+florida
+tweepy
+beautifulsoup
+lexical database
+natural language processing
+nlp apis
+nltk
+python
+regular
+semantic similarity
+chittagong
+petersburg
+twitter api
+sanfrancisco
+free encyclopedic content
+march
+textblob
+geographical information
+geotext
+wordnet
+synset
+html
+dhaka
+api
+wikipedia
+sylhet
+florida2020
+florida2024
+florida2025
+florida2022
+florida2021
+florida2003
+florida1608
+florida2006
+tweepy2020
+tweepy2024
+tweepy2025
+tweepy2022
+tweepy2021
+tweepy2003
+tweepy1608
+tweepy2006
+beautifulsoup2020
+beautifulsoup2024
+beautifulsoup2025
+beautifulsoup2022
+beautifulsoup2021
+beautifulsoup2003
+beautifulsoup1608
+beautifulsoup2006
+lexical database2020
+lexical database2024
+lexical database2025
+lexical database2022
+lexical database2021
+lexical database2003
+lexical database1608
+lexical database2006
+natural language processing2020
+natural language processing2024
+natural language processing2025
+natural language processing2022
+natural language processing2021
+natural language processing2003
+natural language processing1608
+natural language processing2006
+nlp apis2020
+nlp apis2024
+nlp apis2025
+nlp apis2022
+nlp apis2021
+nlp apis2003
+nlp apis1608
+nlp apis2006
+nltk2020
+nltk2024
+nltk2025
+nltk2022
+nltk2021
+nltk2003
+nltk1608
+nltk2006
+python2020
+python2024
+python2025
+python2022
+python2021
+python2003
+python1608
+python2006
+regular2020
+regular2024
+regular2025
+regular2022
+regular2021
+regular2003
+regular1608
+regular2006
+semantic similarity2020
+semantic similarity2024
+semantic similarity2025
+semantic similarity2022
+semantic similarity2021
+semantic similarity2003
+semantic similarity1608
+semantic similarity2006
+chittagong2020
+chittagong2024
+chittagong2025
+chittagong2022
+chittagong2021
+chittagong2003
+chittagong1608
+chittagong2006
+petersburg2020
+petersburg2024
+petersburg2025
+petersburg2022
+petersburg2021
+petersburg2003
+petersburg1608
+petersburg2006
+twitter api2020
+twitter api2024
+twitter api2025
+twitter api2022
+twitter api2021
+twitter api2003
+twitter api1608
+twitter api2006
+sanfrancisco2020
+sanfrancisco2024
+sanfrancisco2025
+sanfrancisco2022
+sanfrancisco2021
+sanfrancisco2003
+sanfrancisco1608
+sanfrancisco2006
+free encyclopedic content2020
+free encyclopedic content2024
+free encyclopedic content2025
+free encyclopedic content2022
+free encyclopedic content2021
+free encyclopedic content2003
+free encyclopedic content1608
+free encyclopedic content2006
+march2020
+march2024
+march2025
+march2022
+march2021
+march2003
+march1608
+march2006
+textblob2020
+textblob2024
+textblob2025
+textblob2022
+textblob2021
+textblob2003
+textblob1608
+textblob2006
+geographical information2020
+geographical information2024
+geographical information2025
+geographical information2022
+geographical information2021
+geographical information2003
+geographical information1608
+geographical information2006
+geotext2020
+geotext2024
+geotext2025
+geotext2022
+geotext2021
+geotext2003
+geotext1608
+geotext2006
+wordnet2020
+wordnet2024
+wordnet2025
+wordnet2022
+wordnet2021
+wordnet2003
+wordnet1608
+wordnet2006
+synset2020
+synset2024
+synset2025
+synset2022
+synset2021
+synset2003
+synset1608
+synset2006
+html2020
+html2024
+html2025
+html2022
+html2021
+html2003
+html1608
+html2006
+dhaka2020
+dhaka2024
+dhaka2025
+dhaka2022
+dhaka2021
+dhaka2003
+dhaka1608
+dhaka2006
+api2020
+api2024
+api2025
+api2022
+api2021
+api2003
+api1608
+api2006
+wikipedia2020
+wikipedia2024
+wikipedia2025
+wikipedia2022
+wikipedia2021
+wikipedia2003
+wikipedia1608
+wikipedia2006
+sylhet2020
+sylhet2024
+sylhet2025
+sylhet2022
+sylhet2021
+sylhet2003
+sylhet1608
+sylhet2006
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+オフライン
+
+(base) C:\Users\Admin\Desktop\wordnet>python rhodiola3_comment.py --filename mydata3.txt
+
+            Utku Sen's
+             _____  _               _ _       _
+            |  __ \| |             | (_)     | |
+            | |__) | |__   ___   __| |_  ___ | | __ _
+            |  _  /| '_ \ / _ \ / _` | |/ _ \| |/ _` |
+            | | \ \| | | | (_) | (_| | | (_) | | (_| |
+            |_|  \_\_| |_|\___/ \__,_|_|\___/|_|\__,_|
+
+Personalized wordlist generation with NLP, by analyzing tweets. (A.K.A crunch2049)
+
+
+Analyzing the text file..
+
+Warning: Could not detect language, assuming English
+
+名詞句（noun phrases） [('free encyclopedic content', 1), ('geographical information', 1), ('lexical database', 1), ('semantic similarity', 1), ('regular', 1)]
+
+固有名詞（proper nouns） [('nltk', 2), ('python', 2), ('wordnet', 2), ('natural language processing', 1), ('textblob', 1), ('nlp apis', 1), ('wikipedia', 1), ('api', 1), ('tweepy', 1), ('twitter api', 1), ('beautifulsoup', 1), ('html', 1), ('geotext', 1), ('synset', 1), ('regular', 1)]
+
+名詞句（noun phrases）類似単語ペアの生成 [('free encyclopedic content', 1), ('geographical information', 1), ('lexical database', 1), ('semantic similarity', 1), ('regular', 1)] []
+
+固有名詞（proper nouns）類似単語ペアの生成 [('nltk', 2), ('python', 2), ('wordnet', 2), ('natural language processing', 1), ('textblob', 1), ('nlp apis', 1), ('wikipedia', 1), ('api', 1), ('tweepy', 1), ('twitter api', 1), ('beautifulsoup', 1), ('html', 1), ('geotext', 1), ('synset', 1), ('regular', 1)] []
+
+Most used nouns: free encyclopedic content:1, geographical information:1, lexical database:1, semantic similarity:1, regular:1
+Most used proper nouns: nltk:2, python:2, wordnet:2, natural language processing:1, textblob:1, nlp apis:1, wikipedia:1, api:1, tweepy:1, twitter api:1, beautifulsoup:1, html:1, geotext:1, synset:1, regular:1
+
+Gathering related locations and years..
+
+
+Wordlist is written to: none_wordlist.txt
+出力ファイルのサイズ: 248 bytes
+出力ファイルの行数: 19
+
+html
+nlp apis
+regular
+lexical database
+python
+wikipedia
+synset
+api
+semantic similarity
+natural language processing
+nltk
+tweepy
+textblob
+geotext
+free encyclopedic content
+geographical information
+wordnet
+twitter api
+beautifulsoup

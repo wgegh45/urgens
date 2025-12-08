@@ -1,0 +1,1375 @@
+Tokyo is Japan's largest city with over 13 million people.
+Osaka is known for its food culture and business.
+Mount Fuji is 3776 meters tall and a UNESCO World Heritage site.
+Kyoto has over 2000 temples and shrines.
+Sony revolutionized electronics globally.
+Toyota is the world's largest automaker.
+Nintendo created Mario and Pokemon.
+Hiroshima promotes peace after World War II.
+Sakura cherry blossoms bloom in spring.
+Tokyo hosted the Olympics in 1964 and 2020.
+
+
+期待される出力（80-150行）
+基本単語:
+tokyo
+osaka
+mount fuji
+kyoto
+sony
+toyota
+nintendo
+hiroshima
+sakura
+mario
+pokemon
+
+Wikipedia取得都市:
+tokyo
+osaka
+kyoto
+hiroshima
+yokohama
+kobe
+nagoya
+fukuoka
+
+組み合わせ:
+tokyoosaka
+osakakyoto
+sonytoyota
+toyotanintendo
+fujitokyo
+kyotohiroshima
+年付き単語（Wikipedia取得）:
+tokyo1603      # 江戸開府
+tokyo1868      # 東京命名
+tokyo1964      # 東京オリンピック
+tokyo2020      # 東京オリンピック
+sony1946       # ソニー創業
+toyota1937     # トヨタ創業
+nintendo1889   # 任天堂創業
+hiroshima1945  # 原爆投下
+fuji3776       # 富士山標高（数字のため一部除外）
+osaka1868      # 大阪設置
+kyoto794       # 平安京遷都
+完全な組み合わせ例:
+toyotatokyo
+yokohama
+iloilo
+toyotahiroshima
+unesco
+paris
+toyotakyoto
+tokyokyoto
+newyork
+nadi
+hino
+world
+osakatoyota
+tokyotoyota
+nintendo
+osakahiroshima
+mount
+osakatokyo
+lautoka
+japans
+toba
+tokyohiroshima
+ashikaga
+kamakura
+kobe
+toyota
+hiroshimatoyota
+hiroshimatokyo
+mario
+tokyoosaka
+japan
+kyototokyo
+university
+hiroshimakyoto
+toyotaosaka
+kyotoosaka
+sakura
+olympics
+tokyo
+food culture
+kyototoyota
+sony
+osakakyoto
+hiroshimaosaka
+kant
+kyotohiroshima
+pokemon
+hiroshima
+osaka
+fuji
+heritage
+kyoto
+toyotatokyo2020
+toyotatokyo1945
+toyotatokyo1960
+toyotatokyo2017
+toyotatokyo1874
+toyotatokyo2025
+toyotatokyo1088
+toyotatokyo2023
+toyotatokyo1972
+toyotatokyo1937
+yokohama2020
+yokohama1945
+yokohama1960
+yokohama2017
+yokohama1874
+yokohama2025
+yokohama1088
+yokohama2023
+yokohama1972
+yokohama1937
+iloilo2020
+iloilo1945
+iloilo1960
+iloilo2017
+iloilo1874
+iloilo2025
+iloilo1088
+iloilo2023
+iloilo1972
+iloilo1937
+toyotahiroshima2020
+toyotahiroshima1945
+toyotahiroshima1960
+toyotahiroshima2017
+toyotahiroshima1874
+toyotahiroshima2025
+toyotahiroshima1088
+toyotahiroshima2023
+toyotahiroshima1972
+toyotahiroshima1937
+unesco2020
+unesco1945
+unesco1960
+unesco2017
+unesco1874
+unesco2025
+unesco1088
+unesco2023
+unesco1972
+unesco1937
+paris2020
+paris1945
+paris1960
+paris2017
+paris1874
+paris2025
+paris1088
+paris2023
+paris1972
+paris1937
+toyotakyoto2020
+toyotakyoto1945
+toyotakyoto1960
+toyotakyoto2017
+toyotakyoto1874
+toyotakyoto2025
+toyotakyoto1088
+toyotakyoto2023
+toyotakyoto1972
+toyotakyoto1937
+tokyokyoto2020
+tokyokyoto1945
+tokyokyoto1960
+tokyokyoto2017
+tokyokyoto1874
+tokyokyoto2025
+tokyokyoto1088
+tokyokyoto2023
+tokyokyoto1972
+tokyokyoto1937
+newyork2020
+newyork1945
+newyork1960
+newyork2017
+newyork1874
+newyork2025
+newyork1088
+newyork2023
+newyork1972
+newyork1937
+nadi2020
+nadi1945
+nadi1960
+nadi2017
+nadi1874
+nadi2025
+nadi1088
+nadi2023
+nadi1972
+nadi1937
+hino2020
+hino1945
+hino1960
+hino2017
+hino1874
+hino2025
+hino1088
+hino2023
+hino1972
+hino1937
+world2020
+world1945
+world1960
+world2017
+world1874
+world2025
+world1088
+world2023
+world1972
+world1937
+osakatoyota2020
+osakatoyota1945
+osakatoyota1960
+osakatoyota2017
+osakatoyota1874
+osakatoyota2025
+osakatoyota1088
+osakatoyota2023
+osakatoyota1972
+osakatoyota1937
+tokyotoyota2020
+tokyotoyota1945
+tokyotoyota1960
+tokyotoyota2017
+tokyotoyota1874
+tokyotoyota2025
+tokyotoyota1088
+tokyotoyota2023
+tokyotoyota1972
+tokyotoyota1937
+nintendo2020
+nintendo1945
+nintendo1960
+nintendo2017
+nintendo1874
+nintendo2025
+nintendo1088
+nintendo2023
+nintendo1972
+nintendo1937
+osakahiroshima2020
+osakahiroshima1945
+osakahiroshima1960
+osakahiroshima2017
+osakahiroshima1874
+osakahiroshima2025
+osakahiroshima1088
+osakahiroshima2023
+osakahiroshima1972
+osakahiroshima1937
+mount2020
+mount1945
+mount1960
+mount2017
+mount1874
+mount2025
+mount1088
+mount2023
+mount1972
+mount1937
+osakatokyo2020
+osakatokyo1945
+osakatokyo1960
+osakatokyo2017
+osakatokyo1874
+osakatokyo2025
+osakatokyo1088
+osakatokyo2023
+osakatokyo1972
+osakatokyo1937
+lautoka2020
+lautoka1945
+lautoka1960
+lautoka2017
+lautoka1874
+lautoka2025
+lautoka1088
+lautoka2023
+lautoka1972
+lautoka1937
+japans2020
+japans1945
+japans1960
+japans2017
+japans1874
+japans2025
+japans1088
+japans2023
+japans1972
+japans1937
+toba2020
+toba1945
+toba1960
+toba2017
+toba1874
+toba2025
+toba1088
+toba2023
+toba1972
+toba1937
+tokyohiroshima2020
+tokyohiroshima1945
+tokyohiroshima1960
+tokyohiroshima2017
+tokyohiroshima1874
+tokyohiroshima2025
+tokyohiroshima1088
+tokyohiroshima2023
+tokyohiroshima1972
+tokyohiroshima1937
+ashikaga2020
+ashikaga1945
+ashikaga1960
+ashikaga2017
+ashikaga1874
+ashikaga2025
+ashikaga1088
+ashikaga2023
+ashikaga1972
+ashikaga1937
+kamakura2020
+kamakura1945
+kamakura1960
+kamakura2017
+kamakura1874
+kamakura2025
+kamakura1088
+kamakura2023
+kamakura1972
+kamakura1937
+kobe2020
+kobe1945
+kobe1960
+kobe2017
+kobe1874
+kobe2025
+kobe1088
+kobe2023
+kobe1972
+kobe1937
+toyota2020
+toyota1945
+toyota1960
+toyota2017
+toyota1874
+toyota2025
+toyota1088
+toyota2023
+toyota1972
+toyota1937
+hiroshimatoyota2020
+hiroshimatoyota1945
+hiroshimatoyota1960
+hiroshimatoyota2017
+hiroshimatoyota1874
+hiroshimatoyota2025
+hiroshimatoyota1088
+hiroshimatoyota2023
+hiroshimatoyota1972
+hiroshimatoyota1937
+hiroshimatokyo2020
+hiroshimatokyo1945
+hiroshimatokyo1960
+hiroshimatokyo2017
+hiroshimatokyo1874
+hiroshimatokyo2025
+hiroshimatokyo1088
+hiroshimatokyo2023
+hiroshimatokyo1972
+hiroshimatokyo1937
+mario2020
+mario1945
+mario1960
+mario2017
+mario1874
+mario2025
+mario1088
+mario2023
+mario1972
+mario1937
+tokyoosaka2020
+tokyoosaka1945
+tokyoosaka1960
+tokyoosaka2017
+tokyoosaka1874
+tokyoosaka2025
+tokyoosaka1088
+tokyoosaka2023
+tokyoosaka1972
+tokyoosaka1937
+japan2020
+japan1945
+japan1960
+japan2017
+japan1874
+japan2025
+japan1088
+japan2023
+japan1972
+japan1937
+kyototokyo2020
+kyototokyo1945
+kyototokyo1960
+kyototokyo2017
+kyototokyo1874
+kyototokyo2025
+kyototokyo1088
+kyototokyo2023
+kyototokyo1972
+kyototokyo1937
+university2020
+university1945
+university1960
+university2017
+university1874
+university2025
+university1088
+university2023
+university1972
+university1937
+hiroshimakyoto2020
+hiroshimakyoto1945
+hiroshimakyoto1960
+hiroshimakyoto2017
+hiroshimakyoto1874
+hiroshimakyoto2025
+hiroshimakyoto1088
+hiroshimakyoto2023
+hiroshimakyoto1972
+hiroshimakyoto1937
+toyotaosaka2020
+toyotaosaka1945
+toyotaosaka1960
+toyotaosaka2017
+toyotaosaka1874
+toyotaosaka2025
+toyotaosaka1088
+toyotaosaka2023
+toyotaosaka1972
+toyotaosaka1937
+kyotoosaka2020
+kyotoosaka1945
+kyotoosaka1960
+kyotoosaka2017
+kyotoosaka1874
+kyotoosaka2025
+kyotoosaka1088
+kyotoosaka2023
+kyotoosaka1972
+kyotoosaka1937
+sakura2020
+sakura1945
+sakura1960
+sakura2017
+sakura1874
+sakura2025
+sakura1088
+sakura2023
+sakura1972
+sakura1937
+olympics2020
+olympics1945
+olympics1960
+olympics2017
+olympics1874
+olympics2025
+olympics1088
+olympics2023
+olympics1972
+olympics1937
+tokyo2020
+tokyo1945
+tokyo1960
+tokyo2017
+tokyo1874
+tokyo2025
+tokyo1088
+tokyo2023
+tokyo1972
+tokyo1937
+food culture2020
+food culture1945
+food culture1960
+food culture2017
+food culture1874
+food culture2025
+food culture1088
+food culture2023
+food culture1972
+food culture1937
+kyototoyota2020
+kyototoyota1945
+kyototoyota1960
+kyototoyota2017
+kyototoyota1874
+kyototoyota2025
+kyototoyota1088
+kyototoyota2023
+kyototoyota1972
+kyototoyota1937
+sony2020
+sony1945
+sony1960
+sony2017
+sony1874
+sony2025
+sony1088
+sony2023
+sony1972
+sony1937
+osakakyoto2020
+osakakyoto1945
+osakakyoto1960
+osakakyoto2017
+osakakyoto1874
+osakakyoto2025
+osakakyoto1088
+osakakyoto2023
+osakakyoto1972
+osakakyoto1937
+hiroshimaosaka2020
+hiroshimaosaka1945
+hiroshimaosaka1960
+hiroshimaosaka2017
+hiroshimaosaka1874
+hiroshimaosaka2025
+hiroshimaosaka1088
+hiroshimaosaka2023
+hiroshimaosaka1972
+hiroshimaosaka1937
+kant2020
+kant1945
+kant1960
+kant2017
+kant1874
+kant2025
+kant1088
+kant2023
+kant1972
+kant1937
+kyotohiroshima2020
+kyotohiroshima1945
+kyotohiroshima1960
+kyotohiroshima2017
+kyotohiroshima1874
+kyotohiroshima2025
+kyotohiroshima1088
+kyotohiroshima2023
+kyotohiroshima1972
+kyotohiroshima1937
+pokemon2020
+pokemon1945
+pokemon1960
+pokemon2017
+pokemon1874
+pokemon2025
+pokemon1088
+pokemon2023
+pokemon1972
+pokemon1937
+hiroshima2020
+hiroshima1945
+hiroshima1960
+hiroshima2017
+hiroshima1874
+hiroshima2025
+hiroshima1088
+hiroshima2023
+hiroshima1972
+hiroshima1937
+osaka2020
+osaka1945
+osaka1960
+osaka2017
+osaka1874
+osaka2025
+osaka1088
+osaka2023
+osaka1972
+osaka1937
+fuji2020
+fuji1945
+fuji1960
+fuji2017
+fuji1874
+fuji2025
+fuji1088
+fuji2023
+fuji1972
+fuji1937
+heritage2020
+heritage1945
+heritage1960
+heritage2017
+heritage1874
+heritage2025
+heritage1088
+heritage2023
+heritage1972
+heritage1937
+kyoto2020
+kyoto1945
+kyoto1960
+kyoto2017
+kyoto1874
+kyoto2025
+kyoto1088
+kyoto2023
+kyoto1972
+kyoto1937
+
+
+
+(base) C:\Users\Admin\Desktop\wordnet>python rhodiola3_comment.py --filename mydata3.txt
+
+            Utku Sen's
+             _____  _               _ _       _
+            |  __ \| |             | (_)     | |
+            | |__) | |__   ___   __| |_  ___ | | __ _
+            |  _  /| '_ \ / _ \ / _` | |/ _ \| |/ _` |
+            | | \ \| | | | (_) | (_| | | (_) | | (_| |
+            |_|  \_\_| |_|\___/ \__,_|_|\___/|_|\__,_|
+
+Personalized wordlist generation with NLP, by analyzing tweets. (A.K.A crunch2049)
+
+
+Analyzing the text file..
+
+Warning: Could not detect language, assuming English
+
+名詞句（noun phrases） [('tokyo', 2), ('japan', 1), ('osaka', 1), ('fuji', 1), ('unesco', 1), ('kyoto', 1), ('sony', 1), ('toyota', 1), ('nintendo', 1), ('mario', 1), ('pokemon', 1), ('hiroshima', 1), ('sakura', 1), ('olympics', 1), ('food culture', 0)]
+
+固有名詞（proper nouns） [('tokyo', 2), ('world', 2), ('japans', 1), ('osaka', 1), ('mount', 1), ('fuji', 1), ('unesco', 1), ('heritage', 1), ('kyoto', 1), ('sony', 1), ('toyota', 1), ('nintendo', 1), ('mario', 1), ('pokemon', 1), ('hiroshima', 1)]
+
+名詞句（noun phrases）類似単語ペアの生成 [('tokyo', 2), ('japan', 1), ('osaka', 1), ('fuji', 1), ('unesco', 1), ('kyoto', 1), ('sony', 1), ('toyota', 1), ('nintendo', 1), ('mario', 1), ('pokemon', 1), ('hiroshima', 1), ('sakura', 1), ('olympics', 1), ('food culture', 0)] ['tokyoosaka', 'tokyokyoto', 'tokyotoyota', 'tokyohiroshima', 'osakatokyo', 'osakakyoto', 'osakatoyota', 'osakahiroshima', 'kyototokyo', 'kyotoosaka', 'kyototoyota', 'kyotohiroshima', 'toyotatokyo', 'toyotaosaka', 'toyotakyoto', 'toyotahiroshima', 'hiroshimatokyo', 'hiroshimaosaka', 'hiroshimakyoto', 'hiroshimatoyota']
+
+固有名詞（proper nouns）類似単語ペアの生成 [('tokyo', 2), ('world', 2), ('japans', 1), ('osaka', 1), ('mount', 1), ('fuji', 1), ('unesco', 1), ('heritage', 1), ('kyoto', 1), ('sony', 1), ('toyota', 1), ('nintendo', 1), ('mario', 1), ('pokemon', 1), ('hiroshima', 1)] ['tokyoosaka', 'tokyokyoto', 'tokyotoyota', 'tokyohiroshima', 'osakatokyo', 'osakakyoto', 'osakatoyota', 'osakahiroshima', 'kyototokyo', 'kyotoosaka', 'kyototoyota', 'kyotohiroshima', 'toyotatokyo', 'toyotaosaka', 'toyotakyoto', 'toyotahiroshima', 'hiroshimatokyo', 'hiroshimaosaka', 'hiroshimakyoto', 'hiroshimatoyota']
+
+Most used nouns: tokyo:2, japan:1, osaka:1, fuji:1, unesco:1, kyoto:1, sony:1, toyota:1, nintendo:1, mario:1, pokemon:1, hiroshima:1, sakura:1, olympics:1, food culture:0
+Most used proper nouns: tokyo:2, world:2, japans:1, osaka:1, mount:1, fuji:1, unesco:1, heritage:1, kyoto:1, sony:1, toyota:1, nintendo:1, mario:1, pokemon:1, hiroshima:1
+
+Gathering related locations and years..
+
+wiki ('tokyo', 2) ['University', 'Kant', 'Kyoto']
+wiki ('japans', 1) ['Ashikaga', 'Kamakura', 'Tokyo']
+wiki ('osaka', 1) ['University', 'Tokyo', 'Yokohama']
+wiki ('fuji', 1) ['Iloilo', 'Lautoka', 'Nadi']
+wiki ('unesco', 1) ['Paris']
+C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py:389: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 389 of the file C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  lis = BeautifulSoup(html).find_all('li')
+wiki ('kyoto', 1) ['Toba', 'Kyoto', 'Kobe']
+wiki ('toyota', 1) ['Toyota', 'Hino', 'New York']
+wiki ('nintendo', 1) ['Kyoto']
+tokyo 2023
+japans 2025
+osaka 2025
+fuji 1874
+unesco 1945
+kyoto 2020
+toyota 1937
+nintendo 1960
+kamakura 2020
+yokohama 2023
+tokyo 2023
+toyota 1937
+paris 1972
+university 1088
+kyoto 2020
+lautoka 2017
+
+Wordlist is written to: none_wordlist.txt
+出力ファイルのサイズ: 7 KB
+出力ファイルの行数: 572
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+修正後
+
+(base) C:\Users\Admin\Desktop\wordnet>python rhodiola3_comment.py --filename mydata3.txt
+
+            Utku Sen's
+             _____  _               _ _       _
+            |  __ \| |             | (_)     | |
+            | |__) | |__   ___   __| |_  ___ | | __ _
+            |  _  /| '_ \ / _ \ / _` | |/ _ \| |/ _` |
+            | | \ \| | | | (_) | (_| | | (_) | | (_| |
+            |_|  \_\_| |_|\___/ \__,_|_|\___/|_|\__,_|
+
+Personalized wordlist generation with NLP, by analyzing tweets. (A.K.A crunch2049)
+
+
+Analyzing the text file..
+
+Warning: Could not detect language, assuming English
+DEBUG: proper_nouns_set = {'mount', 'pokemon', 'japan', 'hiroshima', 'unesco', 'world', 'war', 'nintendo', 'kyoto', 'sony', 'fuji', 'ii', 'mario', 'olympics', 'toyota', 'sakura', 'heritage', 'osaka', 'tokyo'}
+DEBUG: noun='tokyo', noun_words=['tokyo'], has_proper_noun=True
+DEBUG: noun='japan', noun_words=['japan'], has_proper_noun=True
+DEBUG: noun='osaka', noun_words=['osaka'], has_proper_noun=True
+DEBUG: noun='food culture', noun_words=['food', 'culture'], has_proper_noun=False
+DEBUG: noun='fuji', noun_words=['fuji'], has_proper_noun=True
+DEBUG: noun='unesco', noun_words=['unesco'], has_proper_noun=True
+DEBUG: noun='world heritage site', noun_words=['world', 'heritage', 'site'], has_proper_noun=True
+DEBUG: noun='kyoto', noun_words=['kyoto'], has_proper_noun=True
+DEBUG: noun='sony', noun_words=['sony'], has_proper_noun=True
+DEBUG: noun='toyota', noun_words=['toyota'], has_proper_noun=True
+DEBUG: noun='world 's', noun_words=['world', "'s"], has_proper_noun=True
+DEBUG: noun='nintendo', noun_words=['nintendo'], has_proper_noun=True
+DEBUG: noun='mario', noun_words=['mario'], has_proper_noun=True
+DEBUG: noun='pokemon', noun_words=['pokemon'], has_proper_noun=True
+DEBUG: noun='hiroshima', noun_words=['hiroshima'], has_proper_noun=True
+DEBUG: noun='promotes peace', noun_words=['promotes', 'peace'], has_proper_noun=False
+DEBUG: noun='world war', noun_words=['world', 'war'], has_proper_noun=True
+DEBUG: noun='ii', noun_words=['ii'], has_proper_noun=True
+DEBUG: noun='sakura', noun_words=['sakura'], has_proper_noun=True
+DEBUG: noun='cherry blossoms bloom', noun_words=['cherry', 'blossoms', 'bloom'], has_proper_noun=False
+DEBUG: noun='tokyo', noun_words=['tokyo'], has_proper_noun=True
+DEBUG: noun='olympics', noun_words=['olympics'], has_proper_noun=True
+
+名詞句（noun phrases） [('food culture', 1), ('promotes peace', 1), ('cherry blossoms bloom', 1)]
+
+固有名詞（proper nouns） [('tokyo', 2), ('japan', 1), ('osaka', 1), ('mount fuji', 1), ('unesco world heritage', 1), ('kyoto', 1), ('sony', 1), ('toyota', 1), ('nintendo', 1), ('mario', 1), ('pokemon', 1), ('hiroshima', 1), ('world war ii', 1), ('sakura', 1), ('olympics', 1)]
+
+名詞句（noun phrases）類似単語ペアの生成 [('food culture', 1), ('promotes peace', 1), ('cherry blossoms bloom', 1)] []
+
+固有名詞（proper nouns）類似単語ペアの生成 [('tokyo', 2), ('japan', 1), ('osaka', 1), ('mount fuji', 1), ('unesco world heritage', 1), ('kyoto', 1), ('sony', 1), ('toyota', 1), ('nintendo', 1), ('mario', 1), ('pokemon', 1), ('hiroshima', 1), ('world war ii', 1), ('sakura', 1), ('olympics', 1)] ['tokyoosaka', 'tokyokyoto', 'tokyotoyota', 'tokyohiroshima', 'osakatokyo', 'osakakyoto', 'osakatoyota', 'osakahiroshima', 'kyototokyo', 'kyotoosaka', 'kyototoyota', 'kyotohiroshima', 'toyotatokyo', 'toyotaosaka', 'toyotakyoto', 'toyotahiroshima', 'hiroshimatokyo', 'hiroshimaosaka', 'hiroshimakyoto', 'hiroshimatoyota']
+
+Most used nouns: food culture:1, promotes peace:1, cherry blossoms bloom:1
+Most used proper nouns: tokyo:2, japan:1, osaka:1, mount fuji:1, unesco world heritage:1, kyoto:1, sony:1, toyota:1, nintendo:1, mario:1, pokemon:1, hiroshima:1, world war ii:1, sakura:1, olympics:1
+
+Gathering related locations and years..
+
+wiki ('tokyo', 2) ['Kant', 'Asia', 'New York']
+wiki ('japan', 1) ['Kamakura', 'Tokyo', 'Ashikaga']
+wiki ('osaka', 1) ['Tokyo', 'University', 'Yokohama']
+wiki ('kyoto', 1) ['Kobe', 'Kyoto', 'Tokyo']
+wiki ('toyota', 1) ['Toyota', 'New York', 'Hino']
+wiki ('nintendo', 1) ['Kyoto']
+C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py:389: GuessedAtParserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 389 of the file C:\Users\Admin\anaconda3\Lib\site-packages\wikipedia\wikipedia.py. To get rid of this warning, pass the additional argument 'features="lxml"' to the BeautifulSoup constructor.
+
+  lis = BeautifulSoup(html).find_all('li')
+wiki ('world war ii', 1) ['Verdun', 'Versailles', 'March']
+wiki ('sakura', 1) ['Most', 'Sakura']
+tokyo 2023
+japan 2025
+osaka 2025
+unesco world heritage 2025
+kyoto 2020
+toyota 1937
+nintendo 1960
+world war ii 1914
+sakura 1912
+kamakura 2020
+kyoto 2020
+sakura 1912
+university 1088
+yokohama 2023
+tokyo 2023
+verdun 1813
+toyota 1937
+
+Wordlist is written to: none_wordlist.txt
+出力ファイルのサイズ: 7 KB
+出力ファイルの行数: 510
+
+
+kyotoosaka
+pokemon
+japan
+university
+hiroshima
+newyork
+hiroshimakyoto
+unesco world heritage
+nintendo
+tokyokyoto
+hino
+tokyotoyota
+osakahiroshima
+most
+osakatoyota
+kyoto
+world war ii
+kamakura
+sony
+kyototoyota
+tokyohiroshima
+verdun
+kant
+tokyoosaka
+hiroshimaosaka
+toyotatokyo
+food culture
+hiroshimatoyota
+toyotaosaka
+mount fuji
+yokohama
+mario
+olympics
+toyota
+versailles
+promotes peace
+sakura
+kobe
+kyotohiroshima
+toyotakyoto
+osakatokyo
+ashikaga
+osakakyoto
+hiroshimatokyo
+osaka
+asia
+cherry blossoms bloom
+tokyo
+kyototokyo
+toyotahiroshima
+march
+kyotoosaka1088
+kyotoosaka2023
+kyotoosaka2020
+kyotoosaka1914
+kyotoosaka2025
+kyotoosaka1960
+kyotoosaka1912
+kyotoosaka1813
+kyotoosaka1937
+pokemon1088
+pokemon2023
+pokemon2020
+pokemon1914
+pokemon2025
+pokemon1960
+pokemon1912
+pokemon1813
+pokemon1937
+japan1088
+japan2023
+japan2020
+japan1914
+japan2025
+japan1960
+japan1912
+japan1813
+japan1937
+university1088
+university2023
+university2020
+university1914
+university2025
+university1960
+university1912
+university1813
+university1937
+hiroshima1088
+hiroshima2023
+hiroshima2020
+hiroshima1914
+hiroshima2025
+hiroshima1960
+hiroshima1912
+hiroshima1813
+hiroshima1937
+newyork1088
+newyork2023
+newyork2020
+newyork1914
+newyork2025
+newyork1960
+newyork1912
+newyork1813
+newyork1937
+hiroshimakyoto1088
+hiroshimakyoto2023
+hiroshimakyoto2020
+hiroshimakyoto1914
+hiroshimakyoto2025
+hiroshimakyoto1960
+hiroshimakyoto1912
+hiroshimakyoto1813
+hiroshimakyoto1937
+unesco world heritage1088
+unesco world heritage2023
+unesco world heritage2020
+unesco world heritage1914
+unesco world heritage2025
+unesco world heritage1960
+unesco world heritage1912
+unesco world heritage1813
+unesco world heritage1937
+nintendo1088
+nintendo2023
+nintendo2020
+nintendo1914
+nintendo2025
+nintendo1960
+nintendo1912
+nintendo1813
+nintendo1937
+tokyokyoto1088
+tokyokyoto2023
+tokyokyoto2020
+tokyokyoto1914
+tokyokyoto2025
+tokyokyoto1960
+tokyokyoto1912
+tokyokyoto1813
+tokyokyoto1937
+hino1088
+hino2023
+hino2020
+hino1914
+hino2025
+hino1960
+hino1912
+hino1813
+hino1937
+tokyotoyota1088
+tokyotoyota2023
+tokyotoyota2020
+tokyotoyota1914
+tokyotoyota2025
+tokyotoyota1960
+tokyotoyota1912
+tokyotoyota1813
+tokyotoyota1937
+osakahiroshima1088
+osakahiroshima2023
+osakahiroshima2020
+osakahiroshima1914
+osakahiroshima2025
+osakahiroshima1960
+osakahiroshima1912
+osakahiroshima1813
+osakahiroshima1937
+most1088
+most2023
+most2020
+most1914
+most2025
+most1960
+most1912
+most1813
+most1937
+osakatoyota1088
+osakatoyota2023
+osakatoyota2020
+osakatoyota1914
+osakatoyota2025
+osakatoyota1960
+osakatoyota1912
+osakatoyota1813
+osakatoyota1937
+kyoto1088
+kyoto2023
+kyoto2020
+kyoto1914
+kyoto2025
+kyoto1960
+kyoto1912
+kyoto1813
+kyoto1937
+world war ii1088
+world war ii2023
+world war ii2020
+world war ii1914
+world war ii2025
+world war ii1960
+world war ii1912
+world war ii1813
+world war ii1937
+kamakura1088
+kamakura2023
+kamakura2020
+kamakura1914
+kamakura2025
+kamakura1960
+kamakura1912
+kamakura1813
+kamakura1937
+sony1088
+sony2023
+sony2020
+sony1914
+sony2025
+sony1960
+sony1912
+sony1813
+sony1937
+kyototoyota1088
+kyototoyota2023
+kyototoyota2020
+kyototoyota1914
+kyototoyota2025
+kyototoyota1960
+kyototoyota1912
+kyototoyota1813
+kyototoyota1937
+tokyohiroshima1088
+tokyohiroshima2023
+tokyohiroshima2020
+tokyohiroshima1914
+tokyohiroshima2025
+tokyohiroshima1960
+tokyohiroshima1912
+tokyohiroshima1813
+tokyohiroshima1937
+verdun1088
+verdun2023
+verdun2020
+verdun1914
+verdun2025
+verdun1960
+verdun1912
+verdun1813
+verdun1937
+kant1088
+kant2023
+kant2020
+kant1914
+kant2025
+kant1960
+kant1912
+kant1813
+kant1937
+tokyoosaka1088
+tokyoosaka2023
+tokyoosaka2020
+tokyoosaka1914
+tokyoosaka2025
+tokyoosaka1960
+tokyoosaka1912
+tokyoosaka1813
+tokyoosaka1937
+hiroshimaosaka1088
+hiroshimaosaka2023
+hiroshimaosaka2020
+hiroshimaosaka1914
+hiroshimaosaka2025
+hiroshimaosaka1960
+hiroshimaosaka1912
+hiroshimaosaka1813
+hiroshimaosaka1937
+toyotatokyo1088
+toyotatokyo2023
+toyotatokyo2020
+toyotatokyo1914
+toyotatokyo2025
+toyotatokyo1960
+toyotatokyo1912
+toyotatokyo1813
+toyotatokyo1937
+food culture1088
+food culture2023
+food culture2020
+food culture1914
+food culture2025
+food culture1960
+food culture1912
+food culture1813
+food culture1937
+hiroshimatoyota1088
+hiroshimatoyota2023
+hiroshimatoyota2020
+hiroshimatoyota1914
+hiroshimatoyota2025
+hiroshimatoyota1960
+hiroshimatoyota1912
+hiroshimatoyota1813
+hiroshimatoyota1937
+toyotaosaka1088
+toyotaosaka2023
+toyotaosaka2020
+toyotaosaka1914
+toyotaosaka2025
+toyotaosaka1960
+toyotaosaka1912
+toyotaosaka1813
+toyotaosaka1937
+mount fuji1088
+mount fuji2023
+mount fuji2020
+mount fuji1914
+mount fuji2025
+mount fuji1960
+mount fuji1912
+mount fuji1813
+mount fuji1937
+yokohama1088
+yokohama2023
+yokohama2020
+yokohama1914
+yokohama2025
+yokohama1960
+yokohama1912
+yokohama1813
+yokohama1937
+mario1088
+mario2023
+mario2020
+mario1914
+mario2025
+mario1960
+mario1912
+mario1813
+mario1937
+olympics1088
+olympics2023
+olympics2020
+olympics1914
+olympics2025
+olympics1960
+olympics1912
+olympics1813
+olympics1937
+toyota1088
+toyota2023
+toyota2020
+toyota1914
+toyota2025
+toyota1960
+toyota1912
+toyota1813
+toyota1937
+versailles1088
+versailles2023
+versailles2020
+versailles1914
+versailles2025
+versailles1960
+versailles1912
+versailles1813
+versailles1937
+promotes peace1088
+promotes peace2023
+promotes peace2020
+promotes peace1914
+promotes peace2025
+promotes peace1960
+promotes peace1912
+promotes peace1813
+promotes peace1937
+sakura1088
+sakura2023
+sakura2020
+sakura1914
+sakura2025
+sakura1960
+sakura1912
+sakura1813
+sakura1937
+kobe1088
+kobe2023
+kobe2020
+kobe1914
+kobe2025
+kobe1960
+kobe1912
+kobe1813
+kobe1937
+kyotohiroshima1088
+kyotohiroshima2023
+kyotohiroshima2020
+kyotohiroshima1914
+kyotohiroshima2025
+kyotohiroshima1960
+kyotohiroshima1912
+kyotohiroshima1813
+kyotohiroshima1937
+toyotakyoto1088
+toyotakyoto2023
+toyotakyoto2020
+toyotakyoto1914
+toyotakyoto2025
+toyotakyoto1960
+toyotakyoto1912
+toyotakyoto1813
+toyotakyoto1937
+osakatokyo1088
+osakatokyo2023
+osakatokyo2020
+osakatokyo1914
+osakatokyo2025
+osakatokyo1960
+osakatokyo1912
+osakatokyo1813
+osakatokyo1937
+ashikaga1088
+ashikaga2023
+ashikaga2020
+ashikaga1914
+ashikaga2025
+ashikaga1960
+ashikaga1912
+ashikaga1813
+ashikaga1937
+osakakyoto1088
+osakakyoto2023
+osakakyoto2020
+osakakyoto1914
+osakakyoto2025
+osakakyoto1960
+osakakyoto1912
+osakakyoto1813
+osakakyoto1937
+hiroshimatokyo1088
+hiroshimatokyo2023
+hiroshimatokyo2020
+hiroshimatokyo1914
+hiroshimatokyo2025
+hiroshimatokyo1960
+hiroshimatokyo1912
+hiroshimatokyo1813
+hiroshimatokyo1937
+osaka1088
+osaka2023
+osaka2020
+osaka1914
+osaka2025
+osaka1960
+osaka1912
+osaka1813
+osaka1937
+asia1088
+asia2023
+asia2020
+asia1914
+asia2025
+asia1960
+asia1912
+asia1813
+asia1937
+cherry blossoms bloom1088
+cherry blossoms bloom2023
+cherry blossoms bloom2020
+cherry blossoms bloom1914
+cherry blossoms bloom2025
+cherry blossoms bloom1960
+cherry blossoms bloom1912
+cherry blossoms bloom1813
+cherry blossoms bloom1937
+tokyo1088
+tokyo2023
+tokyo2020
+tokyo1914
+tokyo2025
+tokyo1960
+tokyo1912
+tokyo1813
+tokyo1937
+kyototokyo1088
+kyototokyo2023
+kyototokyo2020
+kyototokyo1914
+kyototokyo2025
+kyototokyo1960
+kyototokyo1912
+kyototokyo1813
+kyototokyo1937
+toyotahiroshima1088
+toyotahiroshima2023
+toyotahiroshima2020
+toyotahiroshima1914
+toyotahiroshima2025
+toyotahiroshima1960
+toyotahiroshima1912
+toyotahiroshima1813
+toyotahiroshima1937
+march1088
+march2023
+march2020
+march1914
+march2025
+march1960
+march1912
+march1813
+march1937
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+オフライン
+
+(base) C:\Users\Admin\Desktop\wordnet>python rhodiola3_comment.py --filename mydata3.txt
+
+            Utku Sen's
+             _____  _               _ _       _
+            |  __ \| |             | (_)     | |
+            | |__) | |__   ___   __| |_  ___ | | __ _
+            |  _  /| '_ \ / _ \ / _` | |/ _ \| |/ _` |
+            | | \ \| | | | (_) | (_| | | (_) | | (_| |
+            |_|  \_\_| |_|\___/ \__,_|_|\___/|_|\__,_|
+
+Personalized wordlist generation with NLP, by analyzing tweets. (A.K.A crunch2049)
+
+
+Analyzing the text file..
+
+Warning: Could not detect language, assuming English
+
+名詞句（noun phrases） [('food culture', 1), ('promotes peace', 1), ('cherry blossoms bloom', 1)]
+
+固有名詞（proper nouns） [('tokyo', 2), ('japan', 1), ('osaka', 1), ('mount fuji', 1), ('unesco world heritage', 1), ('kyoto', 1), ('sony', 1), ('toyota', 1), ('nintendo', 1), ('mario', 1), ('pokemon', 1), ('hiroshima', 1), ('world war ii', 1), ('sakura', 1), ('olympics', 1)]
+
+名詞句（noun phrases）類似単語ペアの生成 [('food culture', 1), ('promotes peace', 1), ('cherry blossoms bloom', 1)] []
+
+固有名詞（proper nouns）類似単語ペアの生成 [('tokyo', 2), ('japan', 1), ('osaka', 1), ('mount fuji', 1), ('unesco world heritage', 1), ('kyoto', 1), ('sony', 1), ('toyota', 1), ('nintendo', 1), ('mario', 1), ('pokemon', 1), ('hiroshima', 1), ('world war ii', 1), ('sakura', 1), ('olympics', 1)] ['tokyoosaka', 'tokyokyoto', 'tokyotoyota', 'tokyohiroshima', 'osakatokyo', 'osakakyoto', 'osakatoyota', 'osakahiroshima', 'kyototokyo', 'kyotoosaka', 'kyototoyota', 'kyotohiroshima', 'toyotatokyo', 'toyotaosaka', 'toyotakyoto', 'toyotahiroshima', 'hiroshimatokyo', 'hiroshimaosaka', 'hiroshimakyoto', 'hiroshimatoyota']
+
+Most used nouns: food culture:1, promotes peace:1, cherry blossoms bloom:1
+Most used proper nouns: tokyo:2, japan:1, osaka:1, mount fuji:1, unesco world heritage:1, kyoto:1, sony:1, toyota:1, nintendo:1, mario:1, pokemon:1, hiroshima:1, world war ii:1, sakura:1, olympics:1
+
+Gathering related locations and years..
+
+
+Wordlist is written to: none_wordlist.txt
+出力ファイルのサイズ: 479 bytes
+出力ファイルの行数: 38
+
+food culture
+nintendo
+osakakyoto
+hiroshimatokyo
+kyotohiroshima
+kyototoyota
+hiroshimatoyota
+kyoto
+hiroshima
+mount fuji
+toyotatokyo
+osakatokyo
+tokyohiroshima
+kyototokyo
+osaka
+tokyokyoto
+osakatoyota
+toyotahiroshima
+toyotakyoto
+hiroshimakyoto
+cherry blossoms bloom
+tokyotoyota
+toyota
+tokyo
+world war ii
+tokyoosaka
+olympics
+unesco world heritage
+promotes peace
+japan
+kyotoosaka
+sony
+hiroshimaosaka
+mario
+sakura
+osakahiroshima
+pokemon
+toyotaosaka
+
