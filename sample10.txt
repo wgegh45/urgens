@@ -1,0 +1,30 @@
+修正前
+os.system('cat regex_words.txt >> ' +twitter_username+"_wordlist.txt")
+os.remove('regex_words.txt')
+
+修正後
+try:
+    # Pythonでファイル結合
+    with open("regex_words.txt", 'r', encoding='utf-8') as regex_file:
+        regex_content = regex_file.read()
+    with open(twitter_username+"_wordlist.txt", 'a', encoding='utf-8') as wordlist:
+        wordlist.write(regex_content)
+    os.remove('regex_words.txt')
+except:
+    pass
+
+
+
+2-gram, 3-gramを作成
+from nltk import ngrams
+proper_nouns = ["Microsoft", "Tokyo", "Python"]
+
+# 2-gram と 3-gram を生成して文字列化
+proper_noun_2grams = ["".join(gram) for gram in ngrams(proper_nouns, 2)]
+proper_noun_3grams = ["".join(gram) for gram in ngrams(proper_nouns, 3)]
+
+# 元のリストに追加
+proper_nouns.extend(proper_noun_2grams)
+proper_nouns.extend(proper_noun_3grams)
+
+print(proper_nouns)
